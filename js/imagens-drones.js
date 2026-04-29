@@ -3,13 +3,15 @@
  */
 
 async function inicializarImagensDrones() {
-  const selectAfl = document.getElementById('afloramento-select');
-
-  // 1. Verificar se o dropdown existe no HTML
+  // 1. Tenta procurar pelo ID, se falhar, apanha o primeiro <select> da página automaticamente
+  let selectAfl = document.getElementById('afloramento-select');
   if (!selectAfl) {
-    console.error("ERRO: O dropdown com ID 'afloramento-select' não foi encontrado na página HTML.");
-    // Um alerta apenas para ter a certeza absoluta de que o problema é o ID do HTML
-    alert("Erro: O dropdown 'afloramento-select' não foi encontrado. Verifique se o <select> no seu HTML tem este ID exato.");
+    selectAfl = document.querySelector('select');
+  }
+
+  if (!selectAfl) {
+    console.error("ERRO: Nenhum dropdown (<select>) foi encontrado na página HTML.");
+    alert("Erro crítico: Nenhum menu dropdown (<select>) foi encontrado no seu HTML.");
     return;
   }
 
@@ -19,7 +21,7 @@ async function inicializarImagensDrones() {
   try {
     console.log("A iniciar busca dos dados de imagens...");
     
-    // Lista de possíveis caminhos (adicionei a versão com hífen caso haja um erro de digitação no repositório)
+    // Lista de possíveis caminhos
     const caminhosPossiveis = [
       '../data/imagens_drones.json',    
       '../../data/imagens_drones.json', 
@@ -65,7 +67,7 @@ async function inicializarImagensDrones() {
 
   } catch (erro) {
     console.error("Erro fatal ao carregar os dados:", erro);
-    // 3. Coloca o erro DIRETAMENTE no dropdown para visualização imediata
+    // Coloca o erro DIRETAMENTE no dropdown para visualização
     selectAfl.innerHTML = `<option value="">⚠️ Erro: ${erro.message}</option>`;
   }
 }
@@ -84,7 +86,8 @@ function mostrarImagemDrone(aflNome, imagensGlobais) {
     imgTag.src = `../${caminhoImagem}`;
     imgTag.style.display = 'block'; 
   } else {
-    alert("O dropdown funcionou, mas a tag da <img> não foi encontrada no HTML para exibir a foto.");
+    // Se não encontrar a tag da imagem, avisa, mas não quebra o dropdown
+    console.warn("A tag da <img> não foi encontrada no HTML para exibir a foto. Verifique se existe um <img> na sua página imagens_drones.html");
   }
 }
 
