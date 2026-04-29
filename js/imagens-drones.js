@@ -61,14 +61,20 @@ async function inicializarImagensDrones() {
 function mostrarImagemDrone(aflNome, imagensGlobais) {
   if (!aflNome) return;
   
-  const caminhoRelativo = imagensGlobais[aflNome];
+  let caminhoRelativo = imagensGlobais[aflNome];
   const imgTag = document.querySelector('img[alt="Imagem do Afloramento"]') || document.querySelector('.container img') || document.querySelector('main img');
   
   if (imgTag && caminhoRelativo) {
-    // Com a estrutura de pastas fornecida, este caminho é o único correto:
-    const caminhoExato = `../${caminhoRelativo}`;
+    // RESOLUÇÃO DO "DUPLO RECUO":
+    // Verifica se o caminho no JSON já começa com "../". Se não começar, adicionamos.
+    let caminhoExato = caminhoRelativo;
+    if (!caminhoRelativo.startsWith('../') && !caminhoRelativo.startsWith('http') && !caminhoRelativo.startsWith('/')) {
+        // Remove possível "./" se o utilizador tiver colocado
+        if (caminhoRelativo.startsWith('./')) caminhoRelativo = caminhoRelativo.substring(2);
+        caminhoExato = `../${caminhoRelativo}`;
+    }
     
-    // Limpa erros anteriores antes de tentar carregar nova imagem
+    // Limpa erros anteriores antes de tentar carregar a nova imagem
     imgTag.style.border = "none";
     imgTag.style.padding = "0";
     
@@ -78,7 +84,7 @@ function mostrarImagemDrone(aflNome, imagensGlobais) {
     // 🚨 DETETOR DE ERROS DO GITHUB: Se a imagem não for encontrada, este evento dispara
     imgTag.onerror = function() {
       console.error(`Erro 404: O GitHub não conseguiu carregar a imagem em: ${imgTag.src}`);
-      imgTag.alt = `⚠️ Erro: Ficheiro não encontrado! Verifique se as maiúsculas/minúsculas da imagem batem certo com o JSON.`;
+      imgTag.alt = `⚠️ Erro: Ficheiro não encontrado! O navegador tentou aceder a: ${imgTag.src}`;
       
       // Coloca uma borda vermelha e fundo para chamar a atenção ao erro
       imgTag.style.border = "2px dashed #dc2626";
