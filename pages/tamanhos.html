@@ -1,0 +1,55 @@
+<!-- frontend/pages/tamanhos.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise de Tamanhos</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <img src="../static/Aflora.png" alt="Logo" class="logo">
+        <h2>Análise de Fraturas</h2>
+        <p>Embalse Cabra Corral · Salta, Argentina</p>
+    </header>
+
+    <nav class="sidebar">
+        <ul>
+            <li><a href="../index.html">🏠 Início</a></li>
+            <li><a href="contexto.html">🗺️ Contexto Geológico</a></li>
+            <li><a href="imagens_drones.html">🛸 Imagens Drones</a></li>
+            <li><a href="localizacao.html">📍 Localização</a></li>
+            <li><a href="distribuicao.html">📊 Distribuição Geral</a></li>
+            <li><a href="scanlines.html">📏 Scanlines</a></li>
+            <li><a href="estereogramas.html">🧭 Estereogramas</a></li>
+            <li><a href="p21.html">📈 P21 por Camada</a></li>
+            <li><a href="aberturas.html">📐 Aberturas</a></li>
+            <li><a href="tamanhos.html" class="active">📏 Tamanhos</a></li>
+            <li><a href="espessuras.html">🔲 Espessuras</a></li>
+            <li><a href="espessura_espacamento.html">⚖️ Esp. × Espaç.</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <h1>📏 Análise de Tamanhos</h1>
+        <p>Distribuição da altura das estruturas (veios confinados) por litofácies e camada.</p>
+
+        <section class="controls">
+            <label for="litofacies-tamanhos">Selecione a litofácies:</label>
+            <select id="litofacies-tamanhos"></select>
+            <label for="camada-tamanhos">Selecione a camada:</label>
+            <select id="camada-tamanhos"></select>
+        </section>
+
+        <section class="chart-section">
+            <h2>Histograma com KDE — Altura da Estrutura</h2>
+            <div id="grafico-tamanhos"></div>
+        </section>
+    </main>
+
+    <script src="../js/config.js"></script>
+    <script src="../js/tamanhos.js"></script>
+</body>
+</html>
