@@ -1,0 +1,2432 @@
+{
+  "VINUALES": [
+    {
+      "camada": "SRM7",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM6",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM5",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MRG_AT_Gerson",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "DUMOUND",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "GRETA_I",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "GRETA_II",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "COLCHETE",
+      "p21": 2.3372187455214255,
+      "espessura_media": 100.15789473684211
+    },
+    {
+      "camada": "PLANAR",
+      "p21": 2.4105772823762313,
+      "espessura_media": 123.07142857142857
+    },
+    {
+      "camada": "UFC_Carbonato",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "LEIOLITO",
+      "p21": 10.954846083383055,
+      "espessura_media": 20.096774193548388
+    },
+    {
+      "camada": "MARADONA",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARIA_INFERIOR",
+      "p21": 3.5195093791510965,
+      "espessura_media": 82.11111111111111
+    },
+    {
+      "camada": "MARIA_MEDIA",
+      "p21": 5.207569657619203,
+      "espessura_media": 107.04918032786885
+    },
+    {
+      "camada": "MARIA_SUPERIOR",
+      "p21": 4.071867182169661,
+      "espessura_media": 73.28333333333333
+    },
+    {
+      "camada": "ISOLADA",
+      "p21": 4.978873736340881,
+      "espessura_media": 43.283018867924525
+    },
+    {
+      "camada": "PELE_1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_RIO",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_LAGO",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "FILHOTE",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_MAR_INFERIOR",
+      "p21": 0.0,
+      "espessura_media": null
+    }
+  ],
+  "PONTE": [
+    {
+      "camada": "SRM7",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM6",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM5",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MRG_AT_Gerson",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "DUMOUND",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "GRETA_I",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "GRETA_II",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "COLCHETE",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PLANAR",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "UFC_Carbonato",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "LEIOLITO",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARADONA",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARIA_INFERIOR",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARIA_MEDIA",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARIA_SUPERIOR",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "ISOLADA",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_RIO",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_LAGO",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "FILHOTE",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_MAR_INFERIOR",
+      "p21": 0.0,
+      "espessura_media": null
+    }
+  ],
+  "HOTEL_DEL_DIQUE": [
+    {
+      "camada": "SRM7",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM6",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM5",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MRG_AT_Gerson",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "DUMOUND",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "GRETA_I",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "GRETA_II",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "COLCHETE",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PLANAR",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "UFC_Carbonato",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "LEIOLITO",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARADONA",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARIA_INFERIOR",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARIA_MEDIA",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARIA_SUPERIOR",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "ISOLADA",
+      "p21": 3.137218296647982,
+      "espessura_media": 82.43333333333334
+    },
+    {
+      "camada": "PELE_1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_2",
+      "p21": 2.238637364745136,
+      "espessura_media": 64.4065934065934
+    },
+    {
+      "camada": "PELE_3",
+      "p21": 16.74710343856446,
+      "espessura_media": 63.33898305084746
+    },
+    {
+      "camada": "PELE_4",
+      "p21": 26.454556504827394,
+      "espessura_media": 57.81927710843374
+    },
+    {
+      "camada": "BEIRA_RIO",
+      "p21": 4.229984904261236,
+      "espessura_media": 18.484848484848484
+    },
+    {
+      "camada": "BEIRA_LAGO",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "FILHOTE",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_MAR_INFERIOR",
+      "p21": 0.0,
+      "espessura_media": null
+    }
+  ],
+  "CEDAMAVI": [
+    {
+      "camada": "SRM7",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM6",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM5",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MRG_AT_Gerson",
+      "p21": 1.701959955554845,
+      "espessura_media": 253.9591836734694
+    },
+    {
+      "camada": "DUMOUND",
+      "p21": 5.3475935828877,
+      "espessura_media": 51.0
+    },
+    {
+      "camada": "GRETA_I",
+      "p21": 1.4108443485298086,
+      "espessura_media": 110.0
+    },
+    {
+      "camada": "GRETA_II",
+      "p21": 4.351738241308794,
+      "espessura_media": 100.0
+    },
+    {
+      "camada": "COLCHETE",
+      "p21": 2.9596093239318293,
+      "espessura_media": 101.61538461538461
+    },
+    {
+      "camada": "PLANAR",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "UFC_Carbonato",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "LEIOLITO",
+      "p21": 9.681351541816657,
+      "espessura_media": 27.823529411764707
+    },
+    {
+      "camada": "MARADONA",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARIA_INFERIOR",
+      "p21": 7.202057613168725,
+      "espessura_media": 33.906976744186046
+    },
+    {
+      "camada": "MARIA_MEDIA",
+      "p21": 2.5860606403347903,
+      "espessura_media": 143.76190476190476
+    },
+    {
+      "camada": "MARIA_SUPERIOR",
+      "p21": 2.3620047147162957,
+      "espessura_media": 59.92
+    },
+    {
+      "camada": "ISOLADA",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_RIO",
+      "p21": 5.593583930573838,
+      "espessura_media": 75.71428571428571
+    },
+    {
+      "camada": "BEIRA_LAGO",
+      "p21": 2.7354864327872965,
+      "espessura_media": 116.55555555555556
+    },
+    {
+      "camada": "FILHOTE",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_MAR_INFERIOR",
+      "p21": 0.0,
+      "espessura_media": null
+    }
+  ],
+  "CEDAMAVI_ESP": [
+    {
+      "camada": "SRM7",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM6",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM5",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MRG_AT_Gerson",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "DUMOUND",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "GRETA_I",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "GRETA_II",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "COLCHETE",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PLANAR",
+      "p21": 2.3760868694153947,
+      "espessura_media": 94.0
+    },
+    {
+      "camada": "UFC_Carbonato",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "LEIOLITO",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARADONA",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARIA_INFERIOR",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARIA_MEDIA",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARIA_SUPERIOR",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "ISOLADA",
+      "p21": 1.4301128786037365,
+      "espessura_media": 67.85
+    },
+    {
+      "camada": "PELE_1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_RIO",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_LAGO",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "FILHOTE",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_MAR_INFERIOR",
+      "p21": 0.0,
+      "espessura_media": null
+    }
+  ],
+  "ZORRO": [
+    {
+      "camada": "SRM7",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM6",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM5",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MRG_AT_Gerson",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "DUMOUND",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "GRETA_I",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "GRETA_II",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "COLCHETE",
+      "p21": 6.448244611686829,
+      "espessura_media": 68.77777777777777
+    },
+    {
+      "camada": "PLANAR",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "UFC_Carbonato",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "LEIOLITO",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARADONA",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARIA_INFERIOR",
+      "p21": 3.2213891081294403,
+      "espessura_media": 100.55555555555556
+    },
+    {
+      "camada": "MARIA_MEDIA",
+      "p21": 1.9898115921823893,
+      "espessura_media": 135.8125
+    },
+    {
+      "camada": "MARIA_SUPERIOR",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "ISOLADA",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_RIO",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_LAGO",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "FILHOTE",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_MAR_INFERIOR",
+      "p21": 0.0,
+      "espessura_media": null
+    }
+  ],
+  "LALULA": [
+    {
+      "camada": "SRM7",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM6",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM5",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MRG_AT_Gerson",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "DUMOUND",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "GRETA_I",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "GRETA_II",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "COLCHETE",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PLANAR",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "UFC_Carbonato",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "LEIOLITO",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARADONA",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARIA_INFERIOR",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARIA_MEDIA",
+      "p21": 3.371436039542977,
+      "espessura_media": 134.81666666666666
+    },
+    {
+      "camada": "MARIA_SUPERIOR",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "ISOLADA",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_RIO",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_LAGO",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "FILHOTE",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_MAR_INFERIOR",
+      "p21": 0.0,
+      "espessura_media": null
+    }
+  ],
+  "GAUCHITO_GIL": [
+    {
+      "camada": "SRM7",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM6",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM5",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MRG_AT_Gerson",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "DUMOUND",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "GRETA_I",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "GRETA_II",
+      "p21": 1.0144445827136546,
+      "espessura_media": 145.21052631578948
+    },
+    {
+      "camada": "COLCHETE",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PLANAR",
+      "p21": 2.880833186489607,
+      "espessura_media": 71.46428571428571
+    },
+    {
+      "camada": "UFC_Carbonato",
+      "p21": 10.344827586206897,
+      "espessura_media": 11.077777777777778
+    },
+    {
+      "camada": "LEIOLITO",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARADONA",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARIA_INFERIOR",
+      "p21": 1.8551721060398876,
+      "espessura_media": 102.2258064516129
+    },
+    {
+      "camada": "MARIA_MEDIA",
+      "p21": 3.382704965576375,
+      "espessura_media": 118.75
+    },
+    {
+      "camada": "MARIA_SUPERIOR",
+      "p21": 3.706120318413153,
+      "espessura_media": 58.2
+    },
+    {
+      "camada": "ISOLADA",
+      "p21": 1.8460666194188518,
+      "espessura_media": 64.13636363636364
+    },
+    {
+      "camada": "PELE_1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_3",
+      "p21": 5.020491803278688,
+      "espessura_media": 61.0
+    },
+    {
+      "camada": "PELE_4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_RIO",
+      "p21": 4.015319611757161,
+      "espessura_media": 54.724137931034484
+    },
+    {
+      "camada": "BEIRA_LAGO",
+      "p21": 1.5175236002102097,
+      "espessura_media": 151.3448275862069
+    },
+    {
+      "camada": "FILHOTE",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_MAR_INFERIOR",
+      "p21": 1.1674122823233632,
+      "espessura_media": 194.93333333333334
+    }
+  ],
+  "LOMITO": [
+    {
+      "camada": "SRM7",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM6",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM5",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MRG_AT_Gerson",
+      "p21": 5.9891107078039925,
+      "espessura_media": 31.424242424242426
+    },
+    {
+      "camada": "DUMOUND",
+      "p21": 4.820435224455135,
+      "espessura_media": 55.72857142857143
+    },
+    {
+      "camada": "GRETA_I",
+      "p21": 2.262700932521145,
+      "espessura_media": 98.42857142857143
+    },
+    {
+      "camada": "GRETA_II",
+      "p21": 1.8945711956682267,
+      "espessura_media": 142.26530612244898
+    },
+    {
+      "camada": "COLCHETE",
+      "p21": 1.4192550176412748,
+      "espessura_media": 104.3076923076923
+    },
+    {
+      "camada": "PLANAR",
+      "p21": 2.112486221002107,
+      "espessura_media": 115.56818181818181
+    },
+    {
+      "camada": "UFC_Carbonato",
+      "p21": 13.32507042253521,
+      "espessura_media": 13.88888888888889
+    },
+    {
+      "camada": "LEIOLITO",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARADONA",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARIA_INFERIOR",
+      "p21": 2.406887525141012,
+      "espessura_media": 115.7741935483871
+    },
+    {
+      "camada": "MARIA_MEDIA",
+      "p21": 2.88368971744584,
+      "espessura_media": 115.0204081632653
+    },
+    {
+      "camada": "MARIA_SUPERIOR",
+      "p21": 4.513846651609643,
+      "espessura_media": 63.357142857142854
+    },
+    {
+      "camada": "ISOLADA",
+      "p21": 3.019429237728991,
+      "espessura_media": 111.34210526315789
+    },
+    {
+      "camada": "PELE_1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_RIO",
+      "p21": 4.837711562857762,
+      "espessura_media": 49.19178082191781
+    },
+    {
+      "camada": "BEIRA_LAGO",
+      "p21": 2.5598420172837852,
+      "espessura_media": 144.9607843137255
+    },
+    {
+      "camada": "FILHOTE",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_MAR_INFERIOR",
+      "p21": 0.6632332451152091,
+      "espessura_media": 311.8235294117647
+    }
+  ],
+  "ABLOME_ESP": [
+    {
+      "camada": "SRM7",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM6",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM5",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MRG_AT_Gerson",
+      "p21": 0.7212677231025855,
+      "espessura_media": 275.0
+    },
+    {
+      "camada": "DUMOUND",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "GRETA_I",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "GRETA_II",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "COLCHETE",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PLANAR",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "UFC_Carbonato",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "LEIOLITO",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARADONA",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARIA_INFERIOR",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARIA_MEDIA",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARIA_SUPERIOR",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "ISOLADA",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_RIO",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_LAGO",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "FILHOTE",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_MAR_INFERIOR",
+      "p21": 0.0,
+      "espessura_media": null
+    }
+  ],
+  "ABLOME": [
+    {
+      "camada": "SRM7",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM6",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM5",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MRG_AT_Gerson",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "DUMOUND",
+      "p21": 8.275918635170605,
+      "espessura_media": 16.126984126984127
+    },
+    {
+      "camada": "GRETA_I",
+      "p21": 1.3848837209302327,
+      "espessura_media": 100.0
+    },
+    {
+      "camada": "GRETA_II",
+      "p21": 1.2537656703757771,
+      "espessura_media": 124.82926829268293
+    },
+    {
+      "camada": "COLCHETE",
+      "p21": 0.622030852445599,
+      "espessura_media": 75.95
+    },
+    {
+      "camada": "PLANAR",
+      "p21": 2.3243670886075947,
+      "espessura_media": 91.15384615384616
+    },
+    {
+      "camada": "UFC_Carbonato",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "LEIOLITO",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARADONA",
+      "p21": 1.4851684367361504,
+      "espessura_media": 76.41747572815534
+    },
+    {
+      "camada": "MARIA_INFERIOR",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARIA_MEDIA",
+      "p21": 2.5020042783511087,
+      "espessura_media": 141.15384615384616
+    },
+    {
+      "camada": "MARIA_SUPERIOR",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "ISOLADA",
+      "p21": 2.056841202844591,
+      "espessura_media": 77.22448979591837
+    },
+    {
+      "camada": "PELE_1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_RIO",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_LAGO",
+      "p21": 2.0190881439932076,
+      "espessura_media": 142.26530612244898
+    },
+    {
+      "camada": "FILHOTE",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_MAR_INFERIOR",
+      "p21": 0.0,
+      "espessura_media": null
+    }
+  ],
+  "ABLOME_COSTAS": [
+    {
+      "camada": "SRM7",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM6",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM5",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MRG_AT_Gerson",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "DUMOUND",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "GRETA_I",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "GRETA_II",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "COLCHETE",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PLANAR",
+      "p21": 2.612769369817247,
+      "espessura_media": 98.86046511627907
+    },
+    {
+      "camada": "UFC_Carbonato",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "LEIOLITO",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARADONA",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARIA_INFERIOR",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARIA_MEDIA",
+      "p21": 2.1883801892040107,
+      "espessura_media": 117.28947368421052
+    },
+    {
+      "camada": "MARIA_SUPERIOR",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "ISOLADA",
+      "p21": 2.6735081157255807,
+      "espessura_media": 73.55172413793103
+    },
+    {
+      "camada": "PELE_1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_RIO",
+      "p21": 3.7353821305153505,
+      "espessura_media": 45.241379310344826
+    },
+    {
+      "camada": "BEIRA_LAGO",
+      "p21": 1.2903332006905062,
+      "espessura_media": 129.87878787878788
+    },
+    {
+      "camada": "FILHOTE",
+      "p21": 4.18495808525134,
+      "espessura_media": 61.875
+    },
+    {
+      "camada": "BEIRA_MAR_INFERIOR",
+      "p21": 1.461966248602835,
+      "espessura_media": 62.75
+    }
+  ],
+  "BIV": [
+    {
+      "camada": "SRM7",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM6",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM5",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MRG_AT_Gerson",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "DUMOUND",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "GRETA_I",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "GRETA_II",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "COLCHETE",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PLANAR",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "UFC_Carbonato",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "LEIOLITO",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARADONA",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARIA_INFERIOR",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARIA_MEDIA",
+      "p21": 1.611818917028111,
+      "espessura_media": 131.54464285714286
+    },
+    {
+      "camada": "MARIA_SUPERIOR",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "ISOLADA",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_RIO",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_LAGO",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "FILHOTE",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_MAR_INFERIOR",
+      "p21": 0.0,
+      "espessura_media": null
+    }
+  ],
+  "DIQUE_COMPENSADOR": [
+    {
+      "camada": "SRM7",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM6",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM5",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MRG_AT_Gerson",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "DUMOUND",
+      "p21": 3.2519487212523353,
+      "espessura_media": 53.75
+    },
+    {
+      "camada": "GRETA_I",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "GRETA_II",
+      "p21": 3.1446498478576466,
+      "espessura_media": 107.74285714285715
+    },
+    {
+      "camada": "COLCHETE",
+      "p21": 1.3377380601919358,
+      "espessura_media": 93.40625
+    },
+    {
+      "camada": "PLANAR",
+      "p21": 1.1035256709997192,
+      "espessura_media": 55.5
+    },
+    {
+      "camada": "UFC_Carbonato",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "LEIOLITO",
+      "p21": 10.056446821152702,
+      "espessura_media": 23.53846153846154
+    },
+    {
+      "camada": "MARADONA",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARIA_INFERIOR",
+      "p21": 1.5797225747020358,
+      "espessura_media": 99.5909090909091
+    },
+    {
+      "camada": "MARIA_MEDIA",
+      "p21": 2.430285185906171,
+      "espessura_media": 124.23529411764706
+    },
+    {
+      "camada": "MARIA_SUPERIOR",
+      "p21": 4.6805896671378715,
+      "espessura_media": 61.68181818181818
+    },
+    {
+      "camada": "ISOLADA",
+      "p21": 1.5376303869010515,
+      "espessura_media": 98.72
+    },
+    {
+      "camada": "PELE_1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_4",
+      "p21": 25.683742884909062,
+      "espessura_media": 57.855421686746986
+    },
+    {
+      "camada": "BEIRA_RIO",
+      "p21": 3.267238911832516,
+      "espessura_media": 48.08
+    },
+    {
+      "camada": "BEIRA_LAGO",
+      "p21": 1.5651415891800509,
+      "espessura_media": 135.2
+    },
+    {
+      "camada": "FILHOTE",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_MAR_INFERIOR",
+      "p21": 1.9506452438834472,
+      "espessura_media": 87.9
+    }
+  ],
+  "BODEGUITA": [
+    {
+      "camada": "SRM7",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM6",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM5",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SRM1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "SIM1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MRG_AT_Gerson",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "DUMOUND",
+      "p21": 7.255270767244041,
+      "espessura_media": 35.535714285714285
+    },
+    {
+      "camada": "GRETA_I",
+      "p21": 3.6064037588427835,
+      "espessura_media": 65.6
+    },
+    {
+      "camada": "GRETA_II",
+      "p21": 2.411323797225829,
+      "espessura_media": 143.22
+    },
+    {
+      "camada": "COLCHETE",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PLANAR",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "UFC_Carbonato",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "LEIOLITO",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARADONA",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARIA_INFERIOR",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "MARIA_MEDIA",
+      "p21": 3.6516715147697303,
+      "espessura_media": 149.17910447761193
+    },
+    {
+      "camada": "MARIA_SUPERIOR",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "ISOLADA",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_1",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_2",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_3",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "PELE_4",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_RIO",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_LAGO",
+      "p21": 3.053921451493427,
+      "espessura_media": 94.9076923076923
+    },
+    {
+      "camada": "FILHOTE",
+      "p21": 0.0,
+      "espessura_media": null
+    },
+    {
+      "camada": "BEIRA_MAR_INFERIOR",
+      "p21": 0.0,
+      "espessura_media": null
+    }
+  ]
+}
