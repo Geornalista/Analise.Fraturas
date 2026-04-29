@@ -1,18 +1,31 @@
-<!-- frontend/js/tamanhos.js -->
 /**
  * Página: Análise de Tamanhos (Altura da Estrutura)
  */
 
+let dadosGlobais = null;
+
 async function inicializarTamanhos() {
-  const opcoes = await carregarJSON('opcoes');
-  if (!opcoes) return;
+  try {
+    // Busca o arquivo JSON na pasta data (ajuste o caminho se necessário)
+    // Se você já tem uma função carregarJSON('tamanhos.json') no config.js, você pode usá-la aqui.
+    const response = await fetch('../data/tamanhos.json');
+    if (!response.ok) throw new Error('Falha ao carregar o JSON');
+    dadosGlobais = await response.json();
+  } catch (erro) {
+    console.error("Erro ao carregar os dados:", erro);
+    document.getElementById('grafico-tamanhos').innerHTML = '<p>Erro ao carregar dados.</p>';
+    return;
+  }
 
-  // Preencher dropdowns
-  const selectLito = document.getElementById('litofacies-select');
-  const selectCamada = document.getElementById('camada-select');
+  // 1. Usar os IDs corretos que estão no arquivo HTML
+  const selectLito = document.getElementById('litofacies-tamanhos');
+  const selectCamada = document.getElementById('camada-tamanhos');
 
-  if (selectLito && opcoes.litofacies) {
-    opcoes.litofacies.forEach(lito => {
+  // 2. Preencher dropdown de Litofácies com as chaves do próprio JSON
+  if (selectLito && dadosGlobais) {
+    const litofaciesDisponiveis = Object.keys(dadosGlobais);
+    
+    litofaciesDisponiveis.forEach(lito => {
       const option = document.createElement('option');
       option.value = lito;
       option.textContent = lito;
@@ -20,61 +33,68 @@ async function inicializarTamanhos() {
     });
   }
 
-  if (selectCamada && opcoes.camadas) {
-    opcoes.camadas.forEach(cam => {
-      const option = document.createElement('option');
-      option.value = cam;
-      option.textContent = cam;
-      selectCamada.appendChild(option);
-    });
+  // 3. Preencher o dropdown de camada (o JSON atual não separa por camada, 
+  // então vamos adicionar uma opção geral e desabilitá-lo por enquanto)
+  if (selectCamada) {
+    const option = document.createElement('option');
+    option.value = 'Todas as Camadas';
+    option.textContent = 'Todas as Camadas';
+    selectCamada.appendChild(option);
+    selectCamada.disabled = true; // Desabilita para não confundir o usuário
   }
 
-  // Listeners para mudanças
-  if (selectLito) selectLito.addEventListener('change', () => renderizarTamanhos());
-  if (selectCamada) selectCamada.addEventListener('change', () => renderizarTamanhos());
+  // Listeners para atualizar o gráfico ao mudar as opções
+  if (selectLito) selectLito.addEventListener('change', renderizarTamanhos);
+  if (selectCamada) selectCamada.addEventListener('change', renderizarTamanhos);
 
-  // Renderizar inicial
+  // Renderizar o gráfico inicial
   renderizarTamanhos();
 }
 
-async function renderizarTamanhos(litofacies, camada) {
-  mostrarLoading('grafico-tamanhos');
-
-  const selectLito = document.getElementById('litofacies-select');
-  const selectCamada = document.getElementById('camada-select');
+function renderizarTamanhos() {
+  const selectLito = document.getElementById('litofacies-tamanhos');
+  const selectCamada = document.getElementById('camada-tamanhos');
+  
   const litofacies = selectLito?.value || 'Todas as Litofacies';
   const camada = selectCamada?.value || 'Todas as Camadas';
 
-  const dados = await carregarJSON('tamanhos_por_litofacies');
-  if (!dados) {
-    esconderLoading('grafico-tamanhos');
+  // Verifica se a litofácies existe no JSON
+  if (!dadosGlobais || !dadosGlobais[litofacies]) {
+    document.getElementById('grafico-tamanhos').innerHTML = 
+      `<p style="text-align:center; color:#999;">Sem dados para esta seleção</p>`;
     return;
   }
 
-  const valores = dados.valores || [];
+  // Pega o array de "valores" de dentro da litofácies escolhida
+  const valores = dadosGlobais[litofacies].valores || [];
 
   if (valores.length === 0) {
     document.getElementById('grafico-tamanhos').innerHTML = 
-      `<p style="text-align:center; color:#999;">Sem dados</p>`;
+      `<p style="text-align:center; color:#999;">Sem dados suficientes</p>`;
     return;
   }
 
+  // Configuração do Gráfico Plotly
   const trace = {
     x: valores,
     type: 'histogram',
-    nbinsx: 50,
-    marker: { color: '#2ca02c', opacity: 0.7 }
+    nbinsx: 30, // Quantidade de barras
+    marker: { color: '#1a365d', opacity: 0.8 }, // Cor ajustada para combinar com o layout
+    name: litofacies
   };
 
   const layout = {
-    title: `Distribuição da Altura da Estrutura (${litofacies} - ${camada})`,
+    title: `Distribuição da Altura da Estrutura (${litofacies})`,
     xaxis: { title: 'Altura (cm)' },
     yaxis: { title: 'Frequência' },
-    height: 500
+    height: 500,
+    margin: { t: 50, l: 50, r: 20, b: 50 }
   };
 
-  esconderLoading('grafico-tamanhos');
+  // Limpa o container antes de plotar
+  document.getElementById('grafico-tamanhos').innerHTML = '';
   Plotly.newPlot('grafico-tamanhos', [trace], layout, { responsive: true });
 }
 
+// Inicia o script quando a página terminar de carregar
 document.addEventListener('DOMContentLoaded', inicializarTamanhos);
