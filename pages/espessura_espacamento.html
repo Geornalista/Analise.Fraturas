@@ -1,0 +1,58 @@
+<!-- frontend/pages/espessura_espacamento.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espessura × Espaçamento</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <img src="../static/Aflora.png" alt="Logo" class="logo">
+        <h2>Análise de Fraturas</h2>
+        <p>Embalse Cabra Corral · Salta, Argentina</p>
+    </header>
+
+    <nav class="sidebar">
+        <ul>
+            <li><a href="../index.html">🏠 Início</a></li>
+            <li><a href="contexto.html">🗺️ Contexto Geológico</a></li>
+            <li><a href="imagens_drones.html">🛸 Imagens Drones</a></li>
+            <li><a href="localizacao.html">📍 Localização</a></li>
+            <li><a href="distribuicao.html">📊 Distribuição Geral</a></li>
+            <li><a href="scanlines.html">📏 Scanlines</a></li>
+            <li><a href="estereogramas.html">🧭 Estereogramas</a></li>
+            <li><a href="p21.html">📈 P21 por Camada</a></li>
+            <li><a href="aberturas.html">📐 Aberturas</a></li>
+            <li><a href="tamanhos.html">📏 Tamanhos</a></li>
+            <li><a href="espessuras.html">🔲 Espessuras</a></li>
+            <li><a href="espessura_espacamento.html" class="active">⚖️ Esp. × Espaç.</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <h1>⚖️ Espessura × Espaçamento</h1>
+        <p>Relação entre espessura de camada e espaçamento de fraturas — compilação Ji 2002.</p>
+
+        <section class="controls">
+            <label for="autor-ji2002">Filtrar por autor:</label>
+            <select id="autor-ji2002"></select>
+        </section>
+
+        <section class="chart-section">
+            <h2>Espessura vs. Espaçamento (escala log-log)</h2>
+            <div id="grafico-ji2002"></div>
+        </section>
+
+        <section class="references">
+            <h3>📚 Referências Bibliográficas</h3>
+            <div id="referencias-ji2002"></div>
+        </section>
+    </main>
+
+    <script src="../js/config.js"></script>
+    <script src="../js/ji2002.js"></script>
+</body>
+</html>
