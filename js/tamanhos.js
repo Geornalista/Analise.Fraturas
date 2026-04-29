@@ -19,54 +19,49 @@ async function inicializarTamanhos() {
     let response = null;
     let caminhoSucesso = '';
 
-    // Tenta primeiro usar a função carregarJSON se ela existir no config.js
-    if (typeof carregarJSON === 'function') {
+    // Removido o teste com carregarJSON() porque a função padrão falha
+    // ao tentar fazer o parse de um arquivo JSON que contém a palavra "NaN".
+    // Vamos fazer a requisição manualmente para consertar o texto antes.
+
+    for (const caminho of caminhosPossiveis) {
       try {
-        console.log("Tentando carregar via carregarJSON...");
-        dadosGlobais = await carregarJSON('tamanhos');
-      } catch(e) {
-        console.log("carregarJSON falhou, tentando rotas alternativas...");
+        console.log(`Tentando buscar em: ${caminho}`);
+        const res = await fetch(caminho);
+        if (res.ok) {
+          response = res;
+          caminhoSucesso = caminho;
+          break; // Sai do loop assim que encontrar o arquivo com sucesso
+        }
+      } catch (e) {
+        // Ignora erros de rede aqui para tentar o próximo caminho
       }
     }
 
-    // Se a função acima não existir ou não retornar dados, tenta fazer o fetch manual
-    if (!dadosGlobais) {
-      for (const caminho of caminhosPossiveis) {
-        try {
-          console.log(`Tentando buscar em: ${caminho}`);
-          const res = await fetch(caminho);
-          if (res.ok) {
-            response = res;
-            caminhoSucesso = caminho;
-            break; // Sai do loop assim que encontrar o arquivo com sucesso
-          }
-        } catch (e) {
-          // Ignora erros de rede aqui para tentar o próximo caminho
-        }
-      }
-
-      if (response) {
-        dadosGlobais = await response.json();
-        console.log(`Sucesso! Arquivo encontrado em: ${caminhoSucesso}`);
-      } else {
-        // Se nenhum caminho deu certo, força um erro para cair no catch abaixo
-        throw new Error("Nenhum dos caminhos testados retornou o arquivo tamanhos.json. Verifique se a pasta 'data' foi enviada pro GitHub.");
-      }
+    if (response) {
+      // 1. Lemos o arquivo como texto bruto em vez de tentar ler como JSON direto
+      const textData = await response.text();
+      
+      // 2. CORREÇÃO DO ERRO DA IMAGEM: 
+      // Substituímos o "NaN" inválido no formato JSON pelo valor "null" aceitável.
+      const jsonCorrigido = textData.replace(/:\s*NaN/g, ': null');
+      
+      // 3. Agora sim, convertemos o texto corrigido para um Objeto JavaScript
+      dadosGlobais = JSON.parse(jsonCorrigido);
+      console.log(`Sucesso! Arquivo encontrado em: ${caminhoSucesso}`);
+    } else {
+      throw new Error("Nenhum dos caminhos testados retornou o arquivo tamanhos.json. Verifique se a pasta 'data' foi enviada pro GitHub.");
     }
 
   } catch (erro) {
     console.error("Erro fatal ao carregar os dados:", erro);
     
-    // Mostra o erro REAL na tela, sem assumir que é CORS
+    // Mostra o erro na tela
     document.getElementById('grafico-tamanhos').innerHTML = `
       <div style="text-align: center; color: #dc2626; padding: 2rem; border: 1px dashed #dc2626; border-radius: 8px;">
-        <h3>⚠️ Erro ao encontrar o arquivo JSON</h3>
+        <h3>⚠️ Erro ao carregar os dados</h3>
         <p><strong>Detalhe técnico:</strong> ${erro.message}</p>
         <p style="font-size: 0.9em; color: #666; margin-top: 1rem;">
-          <strong>Dicas para o GitHub Pages:</strong><br>
-          1. Verifique se o arquivo realmente se chama exatamente <code>tamanhos.json</code> (tudo minúsculo).<br>
-          2. Verifique se a pasta realmente se chama <code>data</code> (tudo minúsculo).<br>
-          3. Confirme se você fez o <i>commit</i> e <i>push</i> da pasta <code>data</code> para o GitHub.
+          Abra o "Console" apertando F12 para ver mais detalhes.
         </p>
       </div>`;
     return;
