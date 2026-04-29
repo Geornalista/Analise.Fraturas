@@ -1,0 +1,98 @@
+{
+  "por_afloramento": [
+    {
+      "afloramento": "VINUALES",
+      "total": 166.0
+    },
+    {
+      "afloramento": "HOTEL_DEL_DIQUE",
+      "total": 91.0
+    },
+    {
+      "afloramento": "CEDAMAVI",
+      "total": 243.0
+    },
+    {
+      "afloramento": "CEDAMAVI_ESP",
+      "total": 36.0
+    },
+    {
+      "afloramento": "ZORRO",
+      "total": 75.0
+    },
+    {
+      "afloramento": "LALULA",
+      "total": 120.0
+    },
+    {
+      "afloramento": "GAUCHITO_GIL",
+      "total": 220.0
+    },
+    {
+      "afloramento": "LOMITO",
+      "total": 418.0
+    },
+    {
+      "afloramento": "ABLOME_ESP",
+      "total": 82.0
+    },
+    {
+      "afloramento": "ABLOME",
+      "total": 409.0
+    },
+    {
+      "afloramento": "ABLOME_COSTAS",
+      "total": 172.0
+    },
+    {
+      "afloramento": "DIQUE_COMPENSADOR",
+      "total": 170.0
+    },
+    {
+      "afloramento": "BODEGUITA",
+      "total": 364.0
+    }
+  ],
+  "por_camada": [
+    {
+      "camada": "BEIRA_LAGO",
+      "total": 279.0
+    },
+    {
+      "camada": "ISOLADA",
+      "total": 356.0
+    },
+    {
+      "camada": "MARIA_MEDIA",
+      "total": 477.0
+    },
+    {
+      "camada": "MARADONA",
+      "total": 103.0
+    },
+    {
+      "camada": "PLANAR",
+      "total": 251.0
+    },
+    {
+      "camada": "COLCHETE",
+      "total": 182.0
+    },
+    {
+      "camada": "GRETA_II",
+      "total": 244.0
+    },
+    {
+      "camada": "GRETA_I",
+      "total": 103.0
+    },
+    {
+      "camada": "DUMOUND",
+      "total": 232.0
+    },
+    {
+      "camada": "MRG_AT_Gerson",
+      "total": 164.0
+    }
+  ]
+}
