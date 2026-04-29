@@ -1,0 +1,3932 @@
+{
+  "Todas as Litofacies|Todas as Camadas": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.4240601503759398,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 0.6415547374955682,
+      "max": 2.65,
+      "min": 0.05,
+      "n": 133
+    },
+    "quantis": {
+      "q80": 0.5720000000000011,
+      "q85": 0.95,
+      "q90": 1.15,
+      "q95": 1.75,
+      "q99": 2.65
+    },
+    "histograma": {
+      "valores": [
+        0.06,
+        0.06,
+        0.14,
+        0.12,
+        0.05,
+        0.08,
+        0.05,
+        0.1,
+        0.06,
+        0.06,
+        0.12,
+        0.08,
+        0.08,
+        0.22,
+        0.22,
+        0.06,
+        0.1,
+        0.06,
+        0.27,
+        0.08,
+        0.06,
+        0.06,
+        0.14,
+        0.06,
+        0.05,
+        0.05,
+        0.14,
+        0.06,
+        0.06,
+        0.06,
+        0.27,
+        0.1,
+        0.06,
+        0.1,
+        0.27,
+        0.14,
+        0.22,
+        0.12,
+        0.22,
+        0.18,
+        0.18,
+        0.33,
+        0.08,
+        0.33,
+        0.05,
+        0.22,
+        0.18,
+        0.33,
+        0.33,
+        0.5,
+        0.4,
+        0.95,
+        0.18,
+        0.08,
+        0.4,
+        0.08,
+        0.75,
+        0.06,
+        0.14,
+        0.08,
+        0.06,
+        0.1,
+        0.06,
+        0.06,
+        0.06,
+        0.06,
+        0.06,
+        0.06,
+        1.75,
+        0.27,
+        0.62,
+        0.14,
+        0.33,
+        0.06,
+        0.06,
+        0.5,
+        0.95,
+        0.5,
+        0.05,
+        0.27,
+        0.27,
+        0.95,
+        0.08,
+        0.06,
+        0.05,
+        0.05,
+        1.4,
+        0.08,
+        0.5,
+        0.62,
+        0.06,
+        0.06,
+        0.1,
+        0.12,
+        0.08,
+        0.1,
+        0.08,
+        0.08,
+        0.12,
+        0.06,
+        0.06,
+        0.75,
+        1.75,
+        0.05,
+        0.14,
+        0.95,
+        2.65,
+        1.75,
+        1.15,
+        1.15,
+        0.4,
+        0.33,
+        2.65,
+        2.65,
+        2.65,
+        2.65,
+        1.75,
+        1.75,
+        1.4,
+        2.65,
+        0.08,
+        0.22,
+        0.14,
+        0.14,
+        0.08,
+        0.14,
+        0.95,
+        1.15,
+        0.12,
+        0.22,
+        1.15,
+        1.15,
+        0.5
+      ]
+    }
+  },
+  "Todas as Litofacies|BEIRA_MAR_INFERIOR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|FILHOTE": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|BEIRA_LAGO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|BEIRA_RIO": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 1.8663636363636358,
+      "mediana": 1.75,
+      "moda": 2.65,
+      "std": 0.8678971451418968,
+      "max": 2.65,
+      "min": 0.08,
+      "n": 11
+    },
+    "quantis": {
+      "q80": 2.65,
+      "q85": 2.65,
+      "q90": 2.65,
+      "q95": 2.65,
+      "q99": 2.65
+    },
+    "histograma": {
+      "valores": [
+        2.65,
+        2.65,
+        2.65,
+        2.65,
+        1.75,
+        1.75,
+        1.4,
+        2.65,
+        0.08,
+        1.15,
+        1.15
+      ]
+    }
+  },
+  "Todas as Litofacies|PELE_4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|PELE_3": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.08600000000000001,
+      "mediana": 0.08,
+      "moda": 0.06,
+      "std": 0.023190036174568114,
+      "max": 0.12,
+      "min": 0.06,
+      "n": 10
+    },
+    "quantis": {
+      "q80": 0.10400000000000001,
+      "q85": 0.11299999999999999,
+      "q90": 0.12,
+      "q95": 0.12,
+      "q99": 0.12
+    },
+    "histograma": {
+      "valores": [
+        0.06,
+        0.1,
+        0.12,
+        0.08,
+        0.1,
+        0.08,
+        0.08,
+        0.12,
+        0.06,
+        0.06
+      ]
+    }
+  },
+  "Todas as Litofacies|PELE_2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|ISOLADA": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.099375,
+      "mediana": 0.07,
+      "moda": 0.06,
+      "std": 0.06298681377619779,
+      "max": 0.27,
+      "min": 0.05,
+      "n": 32
+    },
+    "quantis": {
+      "q80": 0.136,
+      "q85": 0.14,
+      "q90": 0.21200000000000016,
+      "q95": 0.24249999999999997,
+      "q99": 0.27
+    },
+    "histograma": {
+      "valores": [
+        0.06,
+        0.06,
+        0.14,
+        0.12,
+        0.05,
+        0.08,
+        0.05,
+        0.1,
+        0.06,
+        0.06,
+        0.12,
+        0.08,
+        0.08,
+        0.22,
+        0.22,
+        0.06,
+        0.1,
+        0.27,
+        0.08,
+        0.06,
+        0.06,
+        0.14,
+        0.06,
+        0.05,
+        0.05,
+        0.14,
+        0.06,
+        0.06,
+        0.06,
+        0.27,
+        0.1,
+        0.06
+      ]
+    }
+  },
+  "Todas as Litofacies|MARIA_SUPERIOR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|MARIA_MEDIA": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.22636363636363638,
+      "mediana": 0.06,
+      "moda": 0.06,
+      "std": 0.5059698158442404,
+      "max": 1.75,
+      "min": 0.06,
+      "n": 11
+    },
+    "quantis": {
+      "q80": 0.1,
+      "q85": 0.12000000000000001,
+      "q90": 0.14,
+      "q95": 0.9450000000000001,
+      "q99": 1.5890000000000006
+    },
+    "histograma": {
+      "valores": [
+        0.14,
+        0.08,
+        0.06,
+        0.1,
+        0.06,
+        0.06,
+        0.06,
+        0.06,
+        0.06,
+        0.06,
+        1.75
+      ]
+    }
+  },
+  "Todas as Litofacies|MARIA_INFERIOR": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.95,
+      "mediana": 0.5449999999999999,
+      "moda": 0.06,
+      "std": 1.2025251210127241,
+      "max": 2.65,
+      "min": 0.06,
+      "n": 4
+    },
+    "quantis": {
+      "q80": 1.6300000000000006,
+      "q85": 1.8849999999999998,
+      "q90": 2.14,
+      "q95": 2.394999999999999,
+      "q99": 2.5989999999999993
+    },
+    "histograma": {
+      "valores": [
+        0.06,
+        0.14,
+        0.95,
+        2.65
+      ]
+    }
+  },
+  "Todas as Litofacies|MARADONA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|LEIOLITO": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.05,
+      "mediana": 0.05,
+      "moda": 0.05,
+      "std": 0.0,
+      "max": 0.05,
+      "min": 0.05,
+      "n": 1
+    },
+    "quantis": {
+      "q80": 0.05,
+      "q85": 0.05,
+      "q90": 0.05,
+      "q95": 0.05,
+      "q99": 0.05
+    },
+    "histograma": {
+      "valores": [
+        0.05
+      ]
+    }
+  },
+  "Todas as Litofacies|UFC_Carbonato": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|PLANAR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|COLCHETE": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.75,
+      "mediana": 0.75,
+      "moda": 0.75,
+      "std": 0.0,
+      "max": 0.75,
+      "min": 0.75,
+      "n": 1
+    },
+    "quantis": {
+      "q80": 0.75,
+      "q85": 0.75,
+      "q90": 0.75,
+      "q95": 0.75,
+      "q99": 0.75
+    },
+    "histograma": {
+      "valores": [
+        0.75
+      ]
+    }
+  },
+  "Todas as Litofacies|GRETA_II": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.06,
+      "mediana": 0.06,
+      "moda": 0.06,
+      "std": 0.0,
+      "max": 0.06,
+      "min": 0.06,
+      "n": 1
+    },
+    "quantis": {
+      "q80": 0.06,
+      "q85": 0.06,
+      "q90": 0.06,
+      "q95": 0.06,
+      "q99": 0.06
+    },
+    "histograma": {
+      "valores": [
+        0.06
+      ]
+    }
+  },
+  "Todas as Litofacies|GRETA_I": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|DUMOUND": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.43454545454545457,
+      "mediana": 0.27,
+      "moda": 0.05,
+      "std": 0.46651419896450935,
+      "max": 1.75,
+      "min": 0.05,
+      "n": 22
+    },
+    "quantis": {
+      "q80": 0.62,
+      "q85": 0.9004999999999993,
+      "q90": 0.95,
+      "q95": 1.3774999999999995,
+      "q99": 1.6764999999999997
+    },
+    "histograma": {
+      "valores": [
+        1.75,
+        0.27,
+        0.62,
+        0.14,
+        0.33,
+        0.06,
+        0.06,
+        0.5,
+        0.95,
+        0.5,
+        0.05,
+        0.27,
+        0.27,
+        0.95,
+        0.08,
+        0.06,
+        0.05,
+        0.05,
+        1.4,
+        0.08,
+        0.5,
+        0.62
+      ]
+    }
+  },
+  "Todas as Litofacies|MRG_AT_Gerson": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|SIM1": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.8999999999999999,
+      "mediana": 1.15,
+      "moda": 1.15,
+      "std": 0.43301270189221924,
+      "max": 1.15,
+      "min": 0.4,
+      "n": 3
+    },
+    "quantis": {
+      "q80": 1.15,
+      "q85": 1.15,
+      "q90": 1.15,
+      "q95": 1.15,
+      "q99": 1.15
+    },
+    "histograma": {
+      "valores": [
+        1.15,
+        1.15,
+        0.4
+      ]
+    }
+  },
+  "Todas as Litofacies|SIM2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|SIM3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|SIM4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|SRM1": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|SRM2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|SRM3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|SRM4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|SRM5": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|SRM6": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|SRM7": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.33,
+      "mediana": 0.33,
+      "moda": 0.33,
+      "std": 0.0,
+      "max": 0.33,
+      "min": 0.33,
+      "n": 1
+    },
+    "quantis": {
+      "q80": 0.33,
+      "q85": 0.33,
+      "q90": 0.33,
+      "q95": 0.33,
+      "q99": 0.33
+    },
+    "histograma": {
+      "valores": [
+        0.33
+      ]
+    }
+  },
+  "Todas as Litofacies|Charneira Jurema - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|DUMOUND_FOOTWALL": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.40285714285714286,
+      "mediana": 0.14,
+      "moda": 0.14,
+      "std": 0.4476871781990294,
+      "max": 1.15,
+      "min": 0.08,
+      "n": 7
+    },
+    "quantis": {
+      "q80": 0.8040000000000005,
+      "q85": 0.9699999999999999,
+      "q90": 1.03,
+      "q95": 1.0899999999999999,
+      "q99": 1.138
+    },
+    "histograma": {
+      "valores": [
+        0.22,
+        0.14,
+        0.14,
+        0.08,
+        0.14,
+        0.95,
+        1.15
+      ]
+    }
+  },
+  "Todas as Litofacies|DUMOUND_HANGINGWALL": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.16999999999999998,
+      "mediana": 0.16999999999999998,
+      "moda": 0.12,
+      "std": 0.07071067811865477,
+      "max": 0.22,
+      "min": 0.12,
+      "n": 2
+    },
+    "quantis": {
+      "q80": 0.2,
+      "q85": 0.205,
+      "q90": 0.21,
+      "q95": 0.215,
+      "q99": 0.219
+    },
+    "histograma": {
+      "valores": [
+        0.12,
+        0.22
+      ]
+    }
+  },
+  "Todas as Litofacies|DUMOUND_TOPO": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.2672,
+      "mediana": 0.22,
+      "moda": 0.18,
+      "std": 0.21435018077902335,
+      "max": 0.95,
+      "min": 0.05,
+      "n": 25
+    },
+    "quantis": {
+      "q80": 0.3440000000000002,
+      "q85": 0.4,
+      "q90": 0.46000000000000013,
+      "q95": 0.6999999999999993,
+      "q99": 0.9019999999999996
+    },
+    "histograma": {
+      "valores": [
+        0.1,
+        0.27,
+        0.14,
+        0.22,
+        0.12,
+        0.22,
+        0.18,
+        0.18,
+        0.33,
+        0.08,
+        0.33,
+        0.05,
+        0.22,
+        0.18,
+        0.33,
+        0.33,
+        0.5,
+        0.4,
+        0.95,
+        0.18,
+        0.08,
+        0.4,
+        0.08,
+        0.75,
+        0.06
+      ]
+    }
+  },
+  "Todas as Litofacies|G5?": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|G8": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|G8_continuacao camada  grainstone( 270cm abaixo topo do Balbuena 2) com mais de 150 veios ao norte da falha ": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|GRETA_II_FW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|GRETA_II_HW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|GRETA_I_FW": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 1.75,
+      "mediana": 1.75,
+      "moda": 1.75,
+      "std": 0.0,
+      "max": 1.75,
+      "min": 1.75,
+      "n": 1
+    },
+    "quantis": {
+      "q80": 1.75,
+      "q85": 1.75,
+      "q90": 1.75,
+      "q95": 1.75,
+      "q99": 1.75
+    },
+    "histograma": {
+      "valores": [
+        1.75
+      ]
+    }
+  },
+  "Todas as Litofacies|GRETA_I_HW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|Grainstone gretado sup - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|JUREMA Flanco Curto Oeste Anticlinal - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|JUREMA Flanco Longo Leste Anticlinal - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|Laminito Gretado": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|Laminito Gretado Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|Planar": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|Scanline 01": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|Scanline 02 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|Scanline 1 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|Scanline 2-3 correlato ao rudstone bioacumulado": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|Scanline 2_2": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.5,
+      "mediana": 0.5,
+      "moda": 0.5,
+      "std": 0.0,
+      "max": 0.5,
+      "min": 0.5,
+      "n": 1
+    },
+    "quantis": {
+      "q80": 0.5,
+      "q85": 0.5,
+      "q90": 0.5,
+      "q95": 0.5,
+      "q99": 0.5
+    },
+    "histograma": {
+      "valores": [
+        0.5
+      ]
+    }
+  },
+  "Todas as Litofacies|Scanline 2_3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|Scanline 3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|Scanline 3 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|Scanline Flanco Leste": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|Topo Balbuena 4?": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|Topo G8 - Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|UFC": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|UFC ou MARADONA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|camada  grainstone 270cm abaixo topo do Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "Todas as Litofacies|estromatolitos grandes Balbuena 4 a camada mais inferior amostrada": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|Todas as Camadas": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.62,
+      "mediana": 0.06,
+      "moda": 0.05,
+      "std": 0.9786214794290997,
+      "max": 1.75,
+      "min": 0.05,
+      "n": 3
+    },
+    "quantis": {
+      "q80": 1.0740000000000003,
+      "q85": 1.2429999999999999,
+      "q90": 1.4120000000000001,
+      "q95": 1.581,
+      "q99": 1.7162
+    },
+    "histograma": {
+      "valores": [
+        0.06,
+        1.75,
+        0.05
+      ]
+    }
+  },
+  "LMC+LMT+MUD|BEIRA_MAR_INFERIOR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|FILHOTE": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|BEIRA_LAGO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|BEIRA_RIO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|PELE_4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|PELE_3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|PELE_2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|ISOLADA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|MARIA_SUPERIOR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|MARIA_MEDIA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|MARIA_INFERIOR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|MARADONA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|LEIOLITO": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.05,
+      "mediana": 0.05,
+      "moda": 0.05,
+      "std": 0.0,
+      "max": 0.05,
+      "min": 0.05,
+      "n": 1
+    },
+    "quantis": {
+      "q80": 0.05,
+      "q85": 0.05,
+      "q90": 0.05,
+      "q95": 0.05,
+      "q99": 0.05
+    },
+    "histograma": {
+      "valores": [
+        0.05
+      ]
+    }
+  },
+  "LMC+LMT+MUD|UFC_Carbonato": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|PLANAR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|COLCHETE": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|GRETA_II": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.06,
+      "mediana": 0.06,
+      "moda": 0.06,
+      "std": 0.0,
+      "max": 0.06,
+      "min": 0.06,
+      "n": 1
+    },
+    "quantis": {
+      "q80": 0.06,
+      "q85": 0.06,
+      "q90": 0.06,
+      "q95": 0.06,
+      "q99": 0.06
+    },
+    "histograma": {
+      "valores": [
+        0.06
+      ]
+    }
+  },
+  "LMC+LMT+MUD|GRETA_I": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|DUMOUND": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|MRG_AT_Gerson": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|SIM1": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|SIM2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|SIM3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|SIM4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|SRM1": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|SRM2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|SRM3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|SRM4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|SRM5": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|SRM6": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|SRM7": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|Charneira Jurema - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|DUMOUND_FOOTWALL": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|DUMOUND_HANGINGWALL": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|DUMOUND_TOPO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|G5?": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|G8": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|G8_continuacao camada  grainstone( 270cm abaixo topo do Balbuena 2) com mais de 150 veios ao norte da falha ": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|GRETA_II_FW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|GRETA_II_HW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|GRETA_I_FW": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 1.75,
+      "mediana": 1.75,
+      "moda": 1.75,
+      "std": 0.0,
+      "max": 1.75,
+      "min": 1.75,
+      "n": 1
+    },
+    "quantis": {
+      "q80": 1.75,
+      "q85": 1.75,
+      "q90": 1.75,
+      "q95": 1.75,
+      "q99": 1.75
+    },
+    "histograma": {
+      "valores": [
+        1.75
+      ]
+    }
+  },
+  "LMC+LMT+MUD|GRETA_I_HW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|Grainstone gretado sup - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|JUREMA Flanco Curto Oeste Anticlinal - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|JUREMA Flanco Longo Leste Anticlinal - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|Laminito Gretado": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|Laminito Gretado Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|Planar": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|Scanline 01": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|Scanline 02 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|Scanline 1 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|Scanline 2-3 correlato ao rudstone bioacumulado": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|Scanline 2_2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|Scanline 2_3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|Scanline 3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|Scanline 3 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|Scanline Flanco Leste": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|Topo Balbuena 4?": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|Topo G8 - Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|UFC": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|UFC ou MARADONA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|camada  grainstone 270cm abaixo topo do Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC+LMT+MUD|estromatolitos grandes Balbuena 4 a camada mais inferior amostrada": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|Todas as Camadas": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|BEIRA_MAR_INFERIOR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|FILHOTE": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|BEIRA_LAGO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|BEIRA_RIO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|PELE_4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|PELE_3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|PELE_2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|ISOLADA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|MARIA_SUPERIOR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|MARIA_MEDIA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|MARIA_INFERIOR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|MARADONA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|LEIOLITO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|UFC_Carbonato": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|PLANAR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|COLCHETE": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|GRETA_II": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|GRETA_I": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|DUMOUND": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|MRG_AT_Gerson": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|SIM1": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|SIM2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|SIM3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|SIM4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|SRM1": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|SRM2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|SRM3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|SRM4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|SRM5": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|SRM6": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|SRM7": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|Charneira Jurema - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|DUMOUND_FOOTWALL": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|DUMOUND_HANGINGWALL": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|DUMOUND_TOPO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|G5?": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|G8": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|G8_continuacao camada  grainstone( 270cm abaixo topo do Balbuena 2) com mais de 150 veios ao norte da falha ": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|GRETA_II_FW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|GRETA_II_HW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|GRETA_I_FW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|GRETA_I_HW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|Grainstone gretado sup - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|JUREMA Flanco Curto Oeste Anticlinal - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|JUREMA Flanco Longo Leste Anticlinal - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|Laminito Gretado": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|Laminito Gretado Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|Planar": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|Scanline 01": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|Scanline 02 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|Scanline 1 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|Scanline 2-3 correlato ao rudstone bioacumulado": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|Scanline 2_2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|Scanline 2_3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|Scanline 3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|Scanline 3 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|Scanline Flanco Leste": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|Topo Balbuena 4?": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|Topo G8 - Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|UFC": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|UFC ou MARADONA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|camada  grainstone 270cm abaixo topo do Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ARN|estromatolitos grandes Balbuena 4 a camada mais inferior amostrada": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|Todas as Camadas": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.5448888888888888,
+      "mediana": 0.1,
+      "moda": 0.06,
+      "std": 0.8724745951555949,
+      "max": 2.65,
+      "min": 0.05,
+      "n": 45
+    },
+    "quantis": {
+      "q80": 1.15,
+      "q85": 1.5399999999999994,
+      "q90": 2.2900000000000014,
+      "q95": 2.65,
+      "q99": 2.65
+    },
+    "histograma": {
+      "valores": [
+        0.06,
+        0.06,
+        0.14,
+        0.12,
+        0.05,
+        0.08,
+        0.05,
+        0.1,
+        0.06,
+        0.06,
+        0.12,
+        0.08,
+        0.08,
+        0.22,
+        0.22,
+        0.06,
+        0.1,
+        0.27,
+        0.08,
+        0.06,
+        0.06,
+        0.14,
+        0.06,
+        0.05,
+        0.05,
+        0.14,
+        0.06,
+        0.06,
+        0.06,
+        0.27,
+        0.1,
+        0.06,
+        0.06,
+        0.75,
+        2.65,
+        2.65,
+        2.65,
+        2.65,
+        1.75,
+        1.75,
+        1.4,
+        2.65,
+        0.08,
+        1.15,
+        1.15
+      ]
+    }
+  },
+  "ETR|BEIRA_MAR_INFERIOR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|FILHOTE": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|BEIRA_LAGO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|BEIRA_RIO": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 1.8663636363636358,
+      "mediana": 1.75,
+      "moda": 2.65,
+      "std": 0.8678971451418968,
+      "max": 2.65,
+      "min": 0.08,
+      "n": 11
+    },
+    "quantis": {
+      "q80": 2.65,
+      "q85": 2.65,
+      "q90": 2.65,
+      "q95": 2.65,
+      "q99": 2.65
+    },
+    "histograma": {
+      "valores": [
+        2.65,
+        2.65,
+        2.65,
+        2.65,
+        1.75,
+        1.75,
+        1.4,
+        2.65,
+        0.08,
+        1.15,
+        1.15
+      ]
+    }
+  },
+  "ETR|PELE_4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|PELE_3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|PELE_2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|ISOLADA": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.099375,
+      "mediana": 0.07,
+      "moda": 0.06,
+      "std": 0.06298681377619779,
+      "max": 0.27,
+      "min": 0.05,
+      "n": 32
+    },
+    "quantis": {
+      "q80": 0.136,
+      "q85": 0.14,
+      "q90": 0.21200000000000016,
+      "q95": 0.24249999999999997,
+      "q99": 0.27
+    },
+    "histograma": {
+      "valores": [
+        0.06,
+        0.06,
+        0.14,
+        0.12,
+        0.05,
+        0.08,
+        0.05,
+        0.1,
+        0.06,
+        0.06,
+        0.12,
+        0.08,
+        0.08,
+        0.22,
+        0.22,
+        0.06,
+        0.1,
+        0.27,
+        0.08,
+        0.06,
+        0.06,
+        0.14,
+        0.06,
+        0.05,
+        0.05,
+        0.14,
+        0.06,
+        0.06,
+        0.06,
+        0.27,
+        0.1,
+        0.06
+      ]
+    }
+  },
+  "ETR|MARIA_SUPERIOR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|MARIA_MEDIA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|MARIA_INFERIOR": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.06,
+      "mediana": 0.06,
+      "moda": 0.06,
+      "std": 0.0,
+      "max": 0.06,
+      "min": 0.06,
+      "n": 1
+    },
+    "quantis": {
+      "q80": 0.06,
+      "q85": 0.06,
+      "q90": 0.06,
+      "q95": 0.06,
+      "q99": 0.06
+    },
+    "histograma": {
+      "valores": [
+        0.06
+      ]
+    }
+  },
+  "ETR|MARADONA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|LEIOLITO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|UFC_Carbonato": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|PLANAR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|COLCHETE": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.75,
+      "mediana": 0.75,
+      "moda": 0.75,
+      "std": 0.0,
+      "max": 0.75,
+      "min": 0.75,
+      "n": 1
+    },
+    "quantis": {
+      "q80": 0.75,
+      "q85": 0.75,
+      "q90": 0.75,
+      "q95": 0.75,
+      "q99": 0.75
+    },
+    "histograma": {
+      "valores": [
+        0.75
+      ]
+    }
+  },
+  "ETR|GRETA_II": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|GRETA_I": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|DUMOUND": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|MRG_AT_Gerson": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|SIM1": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|SIM2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|SIM3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|SIM4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|SRM1": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|SRM2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|SRM3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|SRM4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|SRM5": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|SRM6": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|SRM7": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|Charneira Jurema - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|DUMOUND_FOOTWALL": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|DUMOUND_HANGINGWALL": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|DUMOUND_TOPO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|G5?": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|G8": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|G8_continuacao camada  grainstone( 270cm abaixo topo do Balbuena 2) com mais de 150 veios ao norte da falha ": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|GRETA_II_FW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|GRETA_II_HW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|GRETA_I_FW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|GRETA_I_HW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|Grainstone gretado sup - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|JUREMA Flanco Curto Oeste Anticlinal - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|JUREMA Flanco Longo Leste Anticlinal - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|Laminito Gretado": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|Laminito Gretado Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|Planar": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|Scanline 01": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|Scanline 02 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|Scanline 1 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|Scanline 2-3 correlato ao rudstone bioacumulado": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|Scanline 2_2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|Scanline 2_3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|Scanline 3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|Scanline 3 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|Scanline Flanco Leste": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|Topo Balbuena 4?": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|Topo G8 - Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|UFC": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|UFC ou MARADONA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|camada  grainstone 270cm abaixo topo do Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "ETR|estromatolitos grandes Balbuena 4 a camada mais inferior amostrada": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|Todas as Camadas": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.41483333333333333,
+      "mediana": 0.22,
+      "moda": 0.08,
+      "std": 0.49907538803055906,
+      "max": 2.65,
+      "min": 0.05,
+      "n": 60
+    },
+    "quantis": {
+      "q80": 0.62,
+      "q85": 0.95,
+      "q90": 0.95,
+      "q95": 1.4174999999999989,
+      "q99": 2.118999999999997
+    },
+    "histograma": {
+      "valores": [
+        0.1,
+        0.27,
+        0.14,
+        0.22,
+        0.12,
+        0.22,
+        0.18,
+        0.18,
+        0.33,
+        0.08,
+        0.33,
+        0.05,
+        0.22,
+        0.18,
+        0.33,
+        0.33,
+        0.5,
+        0.4,
+        0.95,
+        0.18,
+        0.08,
+        0.4,
+        0.08,
+        0.75,
+        0.06,
+        1.75,
+        0.27,
+        0.62,
+        0.14,
+        0.33,
+        0.06,
+        0.06,
+        0.5,
+        0.95,
+        0.5,
+        0.05,
+        0.27,
+        0.27,
+        0.95,
+        0.08,
+        0.06,
+        0.05,
+        0.05,
+        1.4,
+        0.08,
+        0.5,
+        0.62,
+        0.14,
+        0.95,
+        2.65,
+        1.75,
+        0.22,
+        0.14,
+        0.14,
+        0.08,
+        0.14,
+        0.95,
+        1.15,
+        0.12,
+        0.22
+      ]
+    }
+  },
+  "GRT|BEIRA_MAR_INFERIOR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|FILHOTE": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|BEIRA_LAGO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|BEIRA_RIO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|PELE_4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|PELE_3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|PELE_2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|ISOLADA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|MARIA_SUPERIOR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|MARIA_MEDIA": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 1.75,
+      "mediana": 1.75,
+      "moda": 1.75,
+      "std": 0.0,
+      "max": 1.75,
+      "min": 1.75,
+      "n": 1
+    },
+    "quantis": {
+      "q80": 1.75,
+      "q85": 1.75,
+      "q90": 1.75,
+      "q95": 1.75,
+      "q99": 1.75
+    },
+    "histograma": {
+      "valores": [
+        1.75
+      ]
+    }
+  },
+  "GRT|MARIA_INFERIOR": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 1.2466666666666666,
+      "mediana": 0.95,
+      "moda": 0.14,
+      "std": 1.2810282328400624,
+      "max": 2.65,
+      "min": 0.14,
+      "n": 3
+    },
+    "quantis": {
+      "q80": 1.9700000000000002,
+      "q85": 2.1399999999999997,
+      "q90": 2.31,
+      "q95": 2.4799999999999995,
+      "q99": 2.6159999999999997
+    },
+    "histograma": {
+      "valores": [
+        0.14,
+        0.95,
+        2.65
+      ]
+    }
+  },
+  "GRT|MARADONA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|LEIOLITO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|UFC_Carbonato": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|PLANAR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|COLCHETE": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|GRETA_II": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|GRETA_I": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|DUMOUND": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.43454545454545457,
+      "mediana": 0.27,
+      "moda": 0.05,
+      "std": 0.46651419896450935,
+      "max": 1.75,
+      "min": 0.05,
+      "n": 22
+    },
+    "quantis": {
+      "q80": 0.62,
+      "q85": 0.9004999999999993,
+      "q90": 0.95,
+      "q95": 1.3774999999999995,
+      "q99": 1.6764999999999997
+    },
+    "histograma": {
+      "valores": [
+        1.75,
+        0.27,
+        0.62,
+        0.14,
+        0.33,
+        0.06,
+        0.06,
+        0.5,
+        0.95,
+        0.5,
+        0.05,
+        0.27,
+        0.27,
+        0.95,
+        0.08,
+        0.06,
+        0.05,
+        0.05,
+        1.4,
+        0.08,
+        0.5,
+        0.62
+      ]
+    }
+  },
+  "GRT|MRG_AT_Gerson": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|SIM1": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|SIM2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|SIM3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|SIM4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|SRM1": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|SRM2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|SRM3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|SRM4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|SRM5": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|SRM6": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|SRM7": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|Charneira Jurema - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|DUMOUND_FOOTWALL": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.40285714285714286,
+      "mediana": 0.14,
+      "moda": 0.14,
+      "std": 0.4476871781990294,
+      "max": 1.15,
+      "min": 0.08,
+      "n": 7
+    },
+    "quantis": {
+      "q80": 0.8040000000000005,
+      "q85": 0.9699999999999999,
+      "q90": 1.03,
+      "q95": 1.0899999999999999,
+      "q99": 1.138
+    },
+    "histograma": {
+      "valores": [
+        0.22,
+        0.14,
+        0.14,
+        0.08,
+        0.14,
+        0.95,
+        1.15
+      ]
+    }
+  },
+  "GRT|DUMOUND_HANGINGWALL": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.16999999999999998,
+      "mediana": 0.16999999999999998,
+      "moda": 0.12,
+      "std": 0.07071067811865477,
+      "max": 0.22,
+      "min": 0.12,
+      "n": 2
+    },
+    "quantis": {
+      "q80": 0.2,
+      "q85": 0.205,
+      "q90": 0.21,
+      "q95": 0.215,
+      "q99": 0.219
+    },
+    "histograma": {
+      "valores": [
+        0.12,
+        0.22
+      ]
+    }
+  },
+  "GRT|DUMOUND_TOPO": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.2672,
+      "mediana": 0.22,
+      "moda": 0.18,
+      "std": 0.21435018077902335,
+      "max": 0.95,
+      "min": 0.05,
+      "n": 25
+    },
+    "quantis": {
+      "q80": 0.3440000000000002,
+      "q85": 0.4,
+      "q90": 0.46000000000000013,
+      "q95": 0.6999999999999993,
+      "q99": 0.9019999999999996
+    },
+    "histograma": {
+      "valores": [
+        0.1,
+        0.27,
+        0.14,
+        0.22,
+        0.12,
+        0.22,
+        0.18,
+        0.18,
+        0.33,
+        0.08,
+        0.33,
+        0.05,
+        0.22,
+        0.18,
+        0.33,
+        0.33,
+        0.5,
+        0.4,
+        0.95,
+        0.18,
+        0.08,
+        0.4,
+        0.08,
+        0.75,
+        0.06
+      ]
+    }
+  },
+  "GRT|G5?": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|G8": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|G8_continuacao camada  grainstone( 270cm abaixo topo do Balbuena 2) com mais de 150 veios ao norte da falha ": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|GRETA_II_FW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|GRETA_II_HW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|GRETA_I_FW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|GRETA_I_HW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|Grainstone gretado sup - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|JUREMA Flanco Curto Oeste Anticlinal - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|JUREMA Flanco Longo Leste Anticlinal - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|Laminito Gretado": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|Laminito Gretado Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|Planar": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|Scanline 01": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|Scanline 02 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|Scanline 1 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|Scanline 2-3 correlato ao rudstone bioacumulado": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|Scanline 2_2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|Scanline 2_3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|Scanline 3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|Scanline 3 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|Scanline Flanco Leste": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|Topo Balbuena 4?": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|Topo G8 - Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|UFC": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|UFC ou MARADONA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|camada  grainstone 270cm abaixo topo do Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "GRT|estromatolitos grandes Balbuena 4 a camada mais inferior amostrada": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|Todas as Camadas": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.074,
+      "mediana": 0.06,
+      "moda": 0.06,
+      "std": 0.026749870196985177,
+      "max": 0.14,
+      "min": 0.06,
+      "n": 10
+    },
+    "quantis": {
+      "q80": 0.084,
+      "q85": 0.093,
+      "q90": 0.104,
+      "q95": 0.12199999999999997,
+      "q99": 0.13640000000000002
+    },
+    "histograma": {
+      "valores": [
+        0.14,
+        0.08,
+        0.06,
+        0.1,
+        0.06,
+        0.06,
+        0.06,
+        0.06,
+        0.06,
+        0.06
+      ]
+    }
+  },
+  "HET|BEIRA_MAR_INFERIOR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|FILHOTE": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|BEIRA_LAGO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|BEIRA_RIO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|PELE_4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|PELE_3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|PELE_2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|ISOLADA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|MARIA_SUPERIOR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|MARIA_MEDIA": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.074,
+      "mediana": 0.06,
+      "moda": 0.06,
+      "std": 0.026749870196985177,
+      "max": 0.14,
+      "min": 0.06,
+      "n": 10
+    },
+    "quantis": {
+      "q80": 0.084,
+      "q85": 0.093,
+      "q90": 0.104,
+      "q95": 0.12199999999999997,
+      "q99": 0.13640000000000002
+    },
+    "histograma": {
+      "valores": [
+        0.14,
+        0.08,
+        0.06,
+        0.1,
+        0.06,
+        0.06,
+        0.06,
+        0.06,
+        0.06,
+        0.06
+      ]
+    }
+  },
+  "HET|MARIA_INFERIOR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|MARADONA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|LEIOLITO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|UFC_Carbonato": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|PLANAR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|COLCHETE": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|GRETA_II": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|GRETA_I": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|DUMOUND": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|MRG_AT_Gerson": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|SIM1": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|SIM2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|SIM3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|SIM4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|SRM1": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|SRM2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|SRM3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|SRM4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|SRM5": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|SRM6": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|SRM7": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|Charneira Jurema - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|DUMOUND_FOOTWALL": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|DUMOUND_HANGINGWALL": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|DUMOUND_TOPO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|G5?": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|G8": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|G8_continuacao camada  grainstone( 270cm abaixo topo do Balbuena 2) com mais de 150 veios ao norte da falha ": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|GRETA_II_FW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|GRETA_II_HW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|GRETA_I_FW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|GRETA_I_HW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|Grainstone gretado sup - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|JUREMA Flanco Curto Oeste Anticlinal - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|JUREMA Flanco Longo Leste Anticlinal - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|Laminito Gretado": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|Laminito Gretado Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|Planar": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|Scanline 01": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|Scanline 02 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|Scanline 1 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|Scanline 2-3 correlato ao rudstone bioacumulado": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|Scanline 2_2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|Scanline 2_3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|Scanline 3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|Scanline 3 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|Scanline Flanco Leste": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|Topo Balbuena 4?": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|Topo G8 - Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|UFC": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|UFC ou MARADONA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|camada  grainstone 270cm abaixo topo do Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "HET|estromatolitos grandes Balbuena 4 a camada mais inferior amostrada": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|Todas as Camadas": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|BEIRA_MAR_INFERIOR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|FILHOTE": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|BEIRA_LAGO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|BEIRA_RIO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|PELE_4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|PELE_3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|PELE_2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|ISOLADA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|MARIA_SUPERIOR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|MARIA_MEDIA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|MARIA_INFERIOR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|MARADONA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|LEIOLITO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|UFC_Carbonato": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|PLANAR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|COLCHETE": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|GRETA_II": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|GRETA_I": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|DUMOUND": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|MRG_AT_Gerson": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|SIM1": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|SIM2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|SIM3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|SIM4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|SRM1": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|SRM2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|SRM3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|SRM4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|SRM5": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|SRM6": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|SRM7": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|Charneira Jurema - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|DUMOUND_FOOTWALL": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|DUMOUND_HANGINGWALL": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|DUMOUND_TOPO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|G5?": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|G8": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|G8_continuacao camada  grainstone( 270cm abaixo topo do Balbuena 2) com mais de 150 veios ao norte da falha ": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|GRETA_II_FW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|GRETA_II_HW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|GRETA_I_FW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|GRETA_I_HW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|Grainstone gretado sup - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|JUREMA Flanco Curto Oeste Anticlinal - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|JUREMA Flanco Longo Leste Anticlinal - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|Laminito Gretado": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|Laminito Gretado Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|Planar": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|Scanline 01": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|Scanline 02 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|Scanline 1 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|Scanline 2-3 correlato ao rudstone bioacumulado": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|Scanline 2_2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|Scanline 2_3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|Scanline 3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|Scanline 3 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|Scanline Flanco Leste": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|Topo Balbuena 4?": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|Topo G8 - Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|UFC": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|UFC ou MARADONA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|camada  grainstone 270cm abaixo topo do Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LEIOLITO|estromatolitos grandes Balbuena 4 a camada mais inferior amostrada": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|Todas as Camadas": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 1.75,
+      "mediana": 1.75,
+      "moda": 1.75,
+      "std": 0.0,
+      "max": 1.75,
+      "min": 1.75,
+      "n": 1
+    },
+    "quantis": {
+      "q80": 1.75,
+      "q85": 1.75,
+      "q90": 1.75,
+      "q95": 1.75,
+      "q99": 1.75
+    },
+    "histograma": {
+      "valores": [
+        1.75
+      ]
+    }
+  },
+  "LMC|BEIRA_MAR_INFERIOR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|FILHOTE": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|BEIRA_LAGO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|BEIRA_RIO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|PELE_4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|PELE_3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|PELE_2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|ISOLADA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|MARIA_SUPERIOR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|MARIA_MEDIA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|MARIA_INFERIOR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|MARADONA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|LEIOLITO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|UFC_Carbonato": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|PLANAR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|COLCHETE": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|GRETA_II": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|GRETA_I": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|DUMOUND": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|MRG_AT_Gerson": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|SIM1": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|SIM2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|SIM3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|SIM4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|SRM1": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|SRM2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|SRM3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|SRM4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|SRM5": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|SRM6": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|SRM7": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|Charneira Jurema - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|DUMOUND_FOOTWALL": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|DUMOUND_HANGINGWALL": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|DUMOUND_TOPO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|G5?": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|G8": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|G8_continuacao camada  grainstone( 270cm abaixo topo do Balbuena 2) com mais de 150 veios ao norte da falha ": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|GRETA_II_FW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|GRETA_II_HW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|GRETA_I_FW": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 1.75,
+      "mediana": 1.75,
+      "moda": 1.75,
+      "std": 0.0,
+      "max": 1.75,
+      "min": 1.75,
+      "n": 1
+    },
+    "quantis": {
+      "q80": 1.75,
+      "q85": 1.75,
+      "q90": 1.75,
+      "q95": 1.75,
+      "q99": 1.75
+    },
+    "histograma": {
+      "valores": [
+        1.75
+      ]
+    }
+  },
+  "LMC|GRETA_I_HW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|Grainstone gretado sup - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|JUREMA Flanco Curto Oeste Anticlinal - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|JUREMA Flanco Longo Leste Anticlinal - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|Laminito Gretado": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|Laminito Gretado Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|Planar": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|Scanline 01": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|Scanline 02 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|Scanline 1 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|Scanline 2-3 correlato ao rudstone bioacumulado": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|Scanline 2_2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|Scanline 2_3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|Scanline 3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|Scanline 3 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|Scanline Flanco Leste": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|Topo Balbuena 4?": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|Topo G8 - Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|UFC": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|UFC ou MARADONA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|camada  grainstone 270cm abaixo topo do Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMC|estromatolitos grandes Balbuena 4 a camada mais inferior amostrada": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|Todas as Camadas": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.06,
+      "mediana": 0.06,
+      "moda": 0.06,
+      "std": 0.0,
+      "max": 0.06,
+      "min": 0.06,
+      "n": 1
+    },
+    "quantis": {
+      "q80": 0.06,
+      "q85": 0.06,
+      "q90": 0.06,
+      "q95": 0.06,
+      "q99": 0.06
+    },
+    "histograma": {
+      "valores": [
+        0.06
+      ]
+    }
+  },
+  "LMT|BEIRA_MAR_INFERIOR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|FILHOTE": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|BEIRA_LAGO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|BEIRA_RIO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|PELE_4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|PELE_3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|PELE_2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|ISOLADA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|MARIA_SUPERIOR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|MARIA_MEDIA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|MARIA_INFERIOR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|MARADONA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|LEIOLITO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|UFC_Carbonato": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|PLANAR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|COLCHETE": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|GRETA_II": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.06,
+      "mediana": 0.06,
+      "moda": 0.06,
+      "std": 0.0,
+      "max": 0.06,
+      "min": 0.06,
+      "n": 1
+    },
+    "quantis": {
+      "q80": 0.06,
+      "q85": 0.06,
+      "q90": 0.06,
+      "q95": 0.06,
+      "q99": 0.06
+    },
+    "histograma": {
+      "valores": [
+        0.06
+      ]
+    }
+  },
+  "LMT|GRETA_I": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|DUMOUND": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|MRG_AT_Gerson": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|SIM1": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|SIM2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|SIM3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|SIM4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|SRM1": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|SRM2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|SRM3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|SRM4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|SRM5": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|SRM6": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|SRM7": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|Charneira Jurema - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|DUMOUND_FOOTWALL": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|DUMOUND_HANGINGWALL": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|DUMOUND_TOPO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|G5?": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|G8": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|G8_continuacao camada  grainstone( 270cm abaixo topo do Balbuena 2) com mais de 150 veios ao norte da falha ": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|GRETA_II_FW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|GRETA_II_HW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|GRETA_I_FW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|GRETA_I_HW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|Grainstone gretado sup - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|JUREMA Flanco Curto Oeste Anticlinal - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|JUREMA Flanco Longo Leste Anticlinal - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|Laminito Gretado": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|Laminito Gretado Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|Planar": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|Scanline 01": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|Scanline 02 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|Scanline 1 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|Scanline 2-3 correlato ao rudstone bioacumulado": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|Scanline 2_2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|Scanline 2_3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|Scanline 3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|Scanline 3 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|Scanline Flanco Leste": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|Topo Balbuena 4?": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|Topo G8 - Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|UFC": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|UFC ou MARADONA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|camada  grainstone 270cm abaixo topo do Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "LMT|estromatolitos grandes Balbuena 4 a camada mais inferior amostrada": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|Todas as Camadas": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.08600000000000001,
+      "mediana": 0.08,
+      "moda": 0.06,
+      "std": 0.023190036174568114,
+      "max": 0.12,
+      "min": 0.06,
+      "n": 10
+    },
+    "quantis": {
+      "q80": 0.10400000000000001,
+      "q85": 0.11299999999999999,
+      "q90": 0.12,
+      "q95": 0.12,
+      "q99": 0.12
+    },
+    "histograma": {
+      "valores": [
+        0.06,
+        0.1,
+        0.12,
+        0.08,
+        0.1,
+        0.08,
+        0.08,
+        0.12,
+        0.06,
+        0.06
+      ]
+    }
+  },
+  "MRG|BEIRA_MAR_INFERIOR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|FILHOTE": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|BEIRA_LAGO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|BEIRA_RIO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|PELE_4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|PELE_3": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.08600000000000001,
+      "mediana": 0.08,
+      "moda": 0.06,
+      "std": 0.023190036174568114,
+      "max": 0.12,
+      "min": 0.06,
+      "n": 10
+    },
+    "quantis": {
+      "q80": 0.10400000000000001,
+      "q85": 0.11299999999999999,
+      "q90": 0.12,
+      "q95": 0.12,
+      "q99": 0.12
+    },
+    "histograma": {
+      "valores": [
+        0.06,
+        0.1,
+        0.12,
+        0.08,
+        0.1,
+        0.08,
+        0.08,
+        0.12,
+        0.06,
+        0.06
+      ]
+    }
+  },
+  "MRG|PELE_2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|ISOLADA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|MARIA_SUPERIOR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|MARIA_MEDIA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|MARIA_INFERIOR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|MARADONA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|LEIOLITO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|UFC_Carbonato": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|PLANAR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|COLCHETE": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|GRETA_II": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|GRETA_I": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|DUMOUND": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|MRG_AT_Gerson": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|SIM1": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|SIM2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|SIM3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|SIM4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|SRM1": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|SRM2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|SRM3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|SRM4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|SRM5": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|SRM6": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|SRM7": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|Charneira Jurema - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|DUMOUND_FOOTWALL": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|DUMOUND_HANGINGWALL": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|DUMOUND_TOPO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|G5?": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|G8": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|G8_continuacao camada  grainstone( 270cm abaixo topo do Balbuena 2) com mais de 150 veios ao norte da falha ": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|GRETA_II_FW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|GRETA_II_HW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|GRETA_I_FW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|GRETA_I_HW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|Grainstone gretado sup - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|JUREMA Flanco Curto Oeste Anticlinal - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|JUREMA Flanco Longo Leste Anticlinal - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|Laminito Gretado": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|Laminito Gretado Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|Planar": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|Scanline 01": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|Scanline 02 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|Scanline 1 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|Scanline 2-3 correlato ao rudstone bioacumulado": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|Scanline 2_2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|Scanline 2_3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|Scanline 3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|Scanline 3 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|Scanline Flanco Leste": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|Topo Balbuena 4?": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|Topo G8 - Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|UFC": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|UFC ou MARADONA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|camada  grainstone 270cm abaixo topo do Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MRG|estromatolitos grandes Balbuena 4 a camada mais inferior amostrada": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|Todas as Camadas": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.05,
+      "mediana": 0.05,
+      "moda": 0.05,
+      "std": 0.0,
+      "max": 0.05,
+      "min": 0.05,
+      "n": 1
+    },
+    "quantis": {
+      "q80": 0.05,
+      "q85": 0.05,
+      "q90": 0.05,
+      "q95": 0.05,
+      "q99": 0.05
+    },
+    "histograma": {
+      "valores": [
+        0.05
+      ]
+    }
+  },
+  "MUD|BEIRA_MAR_INFERIOR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|FILHOTE": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|BEIRA_LAGO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|BEIRA_RIO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|PELE_4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|PELE_3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|PELE_2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|ISOLADA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|MARIA_SUPERIOR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|MARIA_MEDIA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|MARIA_INFERIOR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|MARADONA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|LEIOLITO": {
+    "q_low": 0.0444,
+    "q_high": 2.65,
+    "stats_todos": {
+      "media": 0.7271034482758622,
+      "mediana": 0.14,
+      "moda": 0.06,
+      "std": 1.2432863693327383,
+      "max": 5.0,
+      "min": 0.03,
+      "n": 145
+    },
+    "stats_filtrados": {
+      "media": 0.05,
+      "mediana": 0.05,
+      "moda": 0.05,
+      "std": 0.0,
+      "max": 0.05,
+      "min": 0.05,
+      "n": 1
+    },
+    "quantis": {
+      "q80": 0.05,
+      "q85": 0.05,
+      "q90": 0.05,
+      "q95": 0.05,
+      "q99": 0.05
+    },
+    "histograma": {
+      "valores": [
+        0.05
+      ]
+    }
+  },
+  "MUD|UFC_Carbonato": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|PLANAR": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|COLCHETE": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|GRETA_II": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|GRETA_I": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|DUMOUND": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|MRG_AT_Gerson": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|SIM1": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|SIM2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|SIM3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|SIM4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|SRM1": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|SRM2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|SRM3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|SRM4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|SRM5": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|SRM6": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|SRM7": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|Charneira Jurema - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|DUMOUND_FOOTWALL": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|DUMOUND_HANGINGWALL": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|DUMOUND_TOPO": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|G5?": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|G8": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|G8_continuacao camada  grainstone( 270cm abaixo topo do Balbuena 2) com mais de 150 veios ao norte da falha ": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|GRETA_II_FW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|GRETA_II_HW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|GRETA_I_FW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|GRETA_I_HW": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|Grainstone gretado sup - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|JUREMA Flanco Curto Oeste Anticlinal - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|JUREMA Flanco Longo Leste Anticlinal - Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|Laminito Gretado": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|Laminito Gretado Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|Planar": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|Scanline 01": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|Scanline 02 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|Scanline 1 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|Scanline 2-3 correlato ao rudstone bioacumulado": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|Scanline 2_2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|Scanline 2_3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|Scanline 3": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|Scanline 3 Balbuena 4": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|Scanline Flanco Leste": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|Topo Balbuena 4?": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|Topo G8 - Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|UFC": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|UFC ou MARADONA": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|camada  grainstone 270cm abaixo topo do Balbuena 2": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  },
+  "MUD|estromatolitos grandes Balbuena 4 a camada mais inferior amostrada": {
+    "erro": "Nenhum dado para os filtros selecionados."
+  }
+}
