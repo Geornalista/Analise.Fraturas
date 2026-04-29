@@ -1,0 +1,13 @@
+{
+  "VINUALES": {
+    "BEIRA_MAR_INFERIOR": {
+      "surf_dir": 45,
+      "comprimento": 12.5,
+      "espessura_camada": 2.3,
+      "fraturas": [
+        {"espacamento": 0.5, "dip_dir": 120, "altura": 0.8, "frat_set": "Nao subordinada"},
+        {"espacamento": 0.7, "dip_dir": 125, "altura": 1.2, "frat_set": "Subordinada"}
+      ]
+    }
+  }
+}
