@@ -90,7 +90,9 @@ async function inicializarTamanhos() {
     option.value = 'Todas as Camadas';
     option.textContent = 'Todas as Camadas';
     selectCamada.appendChild(option);
-    selectCamada.disabled = true;
+    
+    // Removido o selectCamada.disabled = true; para que ele funcione visualmente
+    selectCamada.disabled = false;
   }
 
   if (selectLito) selectLito.addEventListener('change', renderizarTamanhos);
