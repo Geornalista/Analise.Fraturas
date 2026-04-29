@@ -8,20 +8,18 @@ async function inicializarTamanhos() {
   try {
     console.log("Iniciando busca dos dados...");
     
-    // Lista de possíveis caminhos para o JSON dependendo da estrutura do seu GitHub Pages
+    // Lista de possíveis caminhos para o novo JSON
+    // Coloquei opções com e sem acento para evitar erros no GitHub Pages
     const caminhosPossiveis = [
-      '../data/tamanhos.json',    // Se "data" e "pages" estiverem no mesmo nível
-      '../../data/tamanhos.json', // Se houver um nível extra de pastas
-      './data/tamanhos.json',     // Se "data" estiver dentro da mesma pasta do HTML
-      '/data/tamanhos.json'       // Caminho absoluto na raiz do repositório
+      '../data/tamanhos_por_litofácies.json',    
+      '../../data/tamanhos_por_litofácies.json', 
+      '../data/tamanhos_por_litofacies.json',    // Sem acento (fallback)
+      './data/tamanhos_por_litofácies.json',     
+      '/data/tamanhos_por_litofácies.json'       
     ];
 
     let response = null;
     let caminhoSucesso = '';
-
-    // Removido o teste com carregarJSON() porque a função padrão falha
-    // ao tentar fazer o parse de um arquivo JSON que contém a palavra "NaN".
-    // Vamos fazer a requisição manualmente para consertar o texto antes.
 
     for (const caminho of caminhosPossiveis) {
       try {
@@ -30,7 +28,7 @@ async function inicializarTamanhos() {
         if (res.ok) {
           response = res;
           caminhoSucesso = caminho;
-          break; // Sai do loop assim que encontrar o arquivo com sucesso
+          break; 
         }
       } catch (e) {
         // Ignora erros de rede aqui para tentar o próximo caminho
@@ -38,24 +36,20 @@ async function inicializarTamanhos() {
     }
 
     if (response) {
-      // 1. Lemos o arquivo como texto bruto em vez de tentar ler como JSON direto
       const textData = await response.text();
       
-      // 2. CORREÇÃO DO ERRO DA IMAGEM: 
-      // Substituímos o "NaN" inválido no formato JSON pelo valor "null" aceitável.
+      // Continua corrigindo o problema dos 'NaN' gerados pelo Python
       const jsonCorrigido = textData.replace(/:\s*NaN/g, ': null');
       
-      // 3. Agora sim, convertemos o texto corrigido para um Objeto JavaScript
       dadosGlobais = JSON.parse(jsonCorrigido);
       console.log(`Sucesso! Arquivo encontrado em: ${caminhoSucesso}`);
     } else {
-      throw new Error("Nenhum dos caminhos testados retornou o arquivo tamanhos.json. Verifique se a pasta 'data' foi enviada pro GitHub.");
+      throw new Error("Nenhum dos caminhos testados retornou o arquivo tamanhos_por_litofácies.json. Verifique o nome do arquivo na pasta 'data'.");
     }
 
   } catch (erro) {
     console.error("Erro fatal ao carregar os dados:", erro);
     
-    // Mostra o erro na tela
     document.getElementById('grafico-tamanhos').innerHTML = `
       <div style="text-align: center; color: #dc2626; padding: 2rem; border: 1px dashed #dc2626; border-radius: 8px;">
         <h3>⚠️ Erro ao carregar os dados</h3>
@@ -67,37 +61,60 @@ async function inicializarTamanhos() {
     return;
   }
 
-  // Restante do código original (Preenchimento dos Selects e Gráfico)
   const selectLito = document.getElementById('litofacies-tamanhos');
   const selectCamada = document.getElementById('camada-tamanhos');
 
-  if (selectLito && dadosGlobais) {
-    const litofaciesDisponiveis = Object.keys(dadosGlobais);
-    
-    selectLito.innerHTML = '<option value="">Selecione uma Litofácies...</option>';
+  if (dadosGlobais) {
+    // Usamos 'Set' para armazenar apenas valores únicos (sem repetição)
+    const litofaciesSet = new Set();
+    const camadasSet = new Set();
 
-    litofaciesDisponiveis.forEach(lito => {
-      const option = document.createElement('option');
-      option.value = lito;
-      option.textContent = lito;
-      selectLito.appendChild(option);
+    // Extrai as litofácies e camadas separadas pelo |
+    Object.keys(dadosGlobais).forEach(chave => {
+      const partes = chave.split('|');
+      if (partes.length === 2) {
+        litofaciesSet.add(partes[0]);
+        camadasSet.add(partes[1]);
+      }
     });
+
+    // Preenche o dropdown de Litofácies
+    if (selectLito) {
+      selectLito.innerHTML = '';
+      Array.from(litofaciesSet).sort().forEach(lito => {
+        const option = document.createElement('option');
+        option.value = lito;
+        option.textContent = lito;
+        selectLito.appendChild(option);
+      });
+      // Deixa "Todas as Litofacies" como padrão se existir
+      if (litofaciesSet.has('Todas as Litofacies')) {
+        selectLito.value = 'Todas as Litofacies';
+      }
+    }
+
+    // Preenche o dropdown de Camadas
+    if (selectCamada) {
+      selectCamada.innerHTML = '';
+      Array.from(camadasSet).sort().forEach(cam => {
+        const option = document.createElement('option');
+        option.value = cam;
+        option.textContent = cam;
+        selectCamada.appendChild(option);
+      });
+      selectCamada.disabled = false;
+      // Deixa "Todas as Camadas" como padrão se existir
+      if (camadasSet.has('Todas as Camadas')) {
+        selectCamada.value = 'Todas as Camadas';
+      }
+    }
   }
 
-  if (selectCamada) {
-    selectCamada.innerHTML = '';
-    const option = document.createElement('option');
-    option.value = 'Todas as Camadas';
-    option.textContent = 'Todas as Camadas';
-    selectCamada.appendChild(option);
-    
-    // Removido o selectCamada.disabled = true; para que ele funcione visualmente
-    selectCamada.disabled = false;
-  }
-
+  // Adiciona os eventos de mudança
   if (selectLito) selectLito.addEventListener('change', renderizarTamanhos);
   if (selectCamada) selectCamada.addEventListener('change', renderizarTamanhos);
 
+  // Renderiza o gráfico inicial
   renderizarTamanhos();
 }
 
@@ -106,21 +123,27 @@ function renderizarTamanhos() {
   const selectCamada = document.getElementById('camada-tamanhos');
   
   const litofacies = selectLito?.value;
-  const camada = selectCamada?.value || 'Todas as Camadas';
+  const camada = selectCamada?.value;
 
-  if (!litofacies) {
+  if (!litofacies || !camada) {
     document.getElementById('grafico-tamanhos').innerHTML = 
-      `<p style="text-align:center; color:#999; margin-top: 2rem;">Selecione uma litofácies acima para visualizar o gráfico.</p>`;
+      `<p style="text-align:center; color:#999; margin-top: 2rem;">Selecione a litofácies e a camada acima para visualizar o gráfico.</p>`;
     return;
   }
 
-  if (!dadosGlobais || !dadosGlobais[litofacies]) {
+  // Reconstrói a chave no formato "Litofacies|Camada"
+  const chave = `${litofacies}|${camada}`;
+  const dados = dadosGlobais[chave];
+
+  // Verifica se a combinação existe ou se o JSON retornou o campo "erro"
+  if (!dados || dados.erro) {
+    const msgErro = dados?.erro || 'Sem dados para esta combinação exata.';
     document.getElementById('grafico-tamanhos').innerHTML = 
-      `<p style="text-align:center; color:#999; margin-top: 2rem;">Sem dados para esta seleção</p>`;
+      `<p style="text-align:center; color:#999; margin-top: 2rem;">${msgErro}</p>`;
     return;
   }
 
-  const valores = dadosGlobais[litofacies].valores || [];
+  const valores = dados.valores || [];
 
   if (valores.length === 0) {
     document.getElementById('grafico-tamanhos').innerHTML = 
@@ -139,7 +162,7 @@ function renderizarTamanhos() {
   };
 
   const layout = {
-    title: `Distribuição da Altura da Estrutura (${litofacies})`,
+    title: `Distribuição da Altura da Estrutura (${litofacies} - ${camada})`,
     xaxis: { title: 'Altura (cm)' },
     yaxis: { title: 'Frequência' },
     height: 500,
