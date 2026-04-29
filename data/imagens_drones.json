@@ -1,12 +1,6 @@
 {
-  "Afloramento Vinuales": "../aflos_imagens/Vinuales_Scanlines_Nomes.png",
-  "Afloramento Ponte": "../aflos_imagens/Ponte_Scanlines_Nomes.png",
-  "Afloramento Cedamavi": "../aflos_imagens/Cedamavi_Scanlines_Nomes.png",
-  "Afloramento Zorro": "../aflos_imagens/Zorro_Scanlines_Nomes.png",
-  "Afloramento Gauchito Gil": "../aflos_imagens/Gauchito_Scanlines_Nomes.png",
-  "Afloramento Lomito": "../aflos_imagens/Lomito_Scanlines_Nomes.png",
-  "Afloramento Ablome Costas": "../aflos_imagens/AblomeCostas_Scanlines_Nomes.png",
-  "Afloramento BIV": "../aflos_imagens/BIV_Scanlines_Nomes.png",
-  "Afloramento Dique Compensador": "../aflos_imagens/Dique_Scanlines_Nomes.png",
-  "Afloramento La Bodeguita": "../aflos_imagens/LaBodeguita_Scanlines_Nomes.png"
+  "Afloramento Vinuales": "../aflos_imagens/1.png",
+  "Afloramento Ponte": "../aflos_imagens/2.png",
+  "Afloramento Cedamavi": "../aflos_imagens/3.png",
+  "Afloramento Zorro": "../aflos_imagens/4.png"
 }
