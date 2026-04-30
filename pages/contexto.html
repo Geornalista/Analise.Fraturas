@@ -105,12 +105,29 @@
             </p>
         </section>
 
-        <section class="downloads">
-            <h3>Documentação e Arquivos</h3>
-            <a href="../pdfs/Introducao EV 02347 Parametrizacao modelagem de fraturas - Salta.pdf" download>📄 Introducao EV 02347 (PDF)</a>
-            <a href="../pdfs/Mapa Geologico_Modelo Conceitual.pdf" download>📦 Mapa Geologico_Modelo Conceitual (PDF)</a>
-            <a href="../pdfs/Resultados.pdf" download>📦 Resultados (PDF)</a>
+        <!-- Botões de Download -->
+        <section class="downloads" style="margin-top: 3rem; padding: 2rem; background-color: #f8fafc; border-radius: 8px; text-align: center; border: 1px solid #e2e8f0;">
+            <h3 style="color: #1a365d; margin-bottom: 1.5rem; font-size: 1.3rem;">Documentação e Arquivos</h3>
+            
+            <!-- Flex container para alinhar os botões lado a lado -->
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                
+                <!-- Uso do %20 no lugar dos espaços para evitar erros 404 no GitHub -->
+                <a href="../pdfs/Introducao%20EV%2002347%20Parametrizacao%20modelagem%20de%20fraturas%20-%20Salta.pdf" download style="background-color: #f97316; color: white; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 6px; font-weight: bold; transition: opacity 0.2s; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                    📄 Introdução (PDF)
+                </a>
+
+                <a href="../pdfs/Mapa%20Geologico_Modelo%20Conceitual.pdf" download style="background-color: #f97316; color: white; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 6px; font-weight: bold; transition: opacity 0.2s; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                    🗺️ Mapa Geológico (PDF)
+                </a>
+
+                <a href="../pdfs/Resultados.pdf" download style="background-color: #f97316; color: white; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 6px; font-weight: bold; transition: opacity 0.2s; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                    📊 Resultados (PDF)
+                </a>
+                
+            </div>
         </section>
+
     </main>
 
     <!-- A tag mais importante: Chama o seu JavaScript mágico! -->
