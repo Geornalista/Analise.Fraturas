@@ -25,4 +25,32 @@
             <li><a href="estereogramas.html">🧭 Estereogramas</a></li>
             <li><a href="p21.html">📈 P21 por Camada</a></li>
             <li><a href="aberturas.html" class="active">📐 Aberturas</a></li>
+            <li><a href="tamanhos.html">📏 Tamanhos</a></li>
+            <li><a href="espessuras.html">🔲 Espessuras</a></li>
+            <li><a href="espessura_espacamento.html">⚖️ Esp. × Espaç.</a></li>
+        </ul>
+    </nav>
 
+    <main class="container">
+        <h1>📐 Aberturas</h1>
+        <p>Os dados de tratamento estatístico das diferentes variáveis medidas foram realizados em diferentes scripts Python,
+            sendo visualizados a seguir alguns dos principais resultados.</p>
+        <p>Uma apresentação mais detalhada destes pode ser vista no pdf disponibilizado para download abaixo.</p>
+
+        <section class="controls">
+            <label for="afloramento-scanline">Selecione o afloramento:</label>
+            <select id="afloramento-scanline"></select>
+            <label for="camada-scanline">Selecione a camada:</label>
+            <select id="camada-scanline"></select>
+        </section>
+
+        <section class="chart-section">
+            <h2>Aberturas</h2>
+            <canvas id="canvas-aberturas" width="1200" height="400"></canvas>
+        </section>
+    </main>
+
+    <script src="../js/config.js"></script>
+    <script src="../js/aberturas.js"></script>
+</body>
+</html>            
