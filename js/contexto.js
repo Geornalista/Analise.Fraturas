@@ -53,7 +53,7 @@ function mostrarImagemContexto(tipoImagem) {
   // Mapeamento dos caminhos
   const mapa = {
     'Esquema Geológico Detalhado': '../mapas/MapaGeologico.png',
-    'Arcabouço Estrutural':        '../mapas/ArcaboucoEstructural.png',
+    'Arcabouço Estrutural':        '../mapas/ArcaboucoEstrutural.png',
     'Modelo Conceitual':           '../mapas/ModeloConceitual.png'
   };
 
