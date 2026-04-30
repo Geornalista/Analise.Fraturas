@@ -2,25 +2,27 @@
  * Página: Contexto Geológico
  */
 
-// A função já não precisa ser 'async' porque removemos o bloqueio do JSON
 function inicializarContexto() {
   
-  // Preencher dropdown de imagens
-  const selectImagem = document.getElementById('imagem-select');
+  // 1. Busca inteligente do dropdown
+  let selectImagem = document.getElementById('imagem-select');
+  if (!selectImagem) {
+    // Se não achar o ID, procura o primeiro select dentro da área principal da página
+    selectImagem = document.querySelector('main select') || document.querySelector('.container select');
+  }
   
   if (!selectImagem) {
-      console.error("ERRO: O dropdown com o ID 'imagem-select' não foi encontrado no seu ficheiro HTML.");
+      console.error("ERRO: O dropdown (<select>) não foi encontrado no HTML.");
+      alert("Erro crítico: Nenhum menu dropdown (<select>) foi encontrado na sua página de Contexto Geológico.");
       return;
   }
 
-  // Opções fixas (não precisamos carregar nenhum JSON para isto)
   const imagens = [
     'Esquema Geológico Detalhado',
     'Arcabouço Estrutural',
     'Modelo Conceitual'
   ];
 
-  // Limpar e preencher o dropdown
   selectImagem.innerHTML = '';
   imagens.forEach(img => {
     const option = document.createElement('option');
@@ -29,18 +31,22 @@ function inicializarContexto() {
     selectImagem.appendChild(option);
   });
 
-  // Atualizar a imagem sempre que o utilizador muda a opção
   selectImagem.addEventListener('change', () => mostrarImagemContexto(selectImagem.value));
 
-  // Forçar a exibição da primeira imagem mal a página abre
   mostrarImagemContexto('Esquema Geológico Detalhado');
 }
 
 function mostrarImagemContexto(tipoImagem) {
-  const imagemEl = document.getElementById('imagem-contexto');
+  
+  // 2. Busca inteligente da imagem (ignorando possíveis logos no header)
+  let imagemEl = document.getElementById('imagem-contexto');
+  if (!imagemEl) {
+    imagemEl = document.querySelector('main img') || document.querySelector('.chart-section img') || document.querySelector('.container img');
+  }
   
   if (!imagemEl) {
-      console.error("ERRO: A tag de imagem com ID 'imagem-contexto' não foi encontrada no HTML.");
+      console.error("ERRO: A tag de imagem não foi encontrada no HTML.");
+      alert("Erro: A tag <img> onde o mapa deveria aparecer não foi encontrada na sua página.");
       return;
   }
 
@@ -63,7 +69,7 @@ function mostrarImagemContexto(tipoImagem) {
   imagemEl.alt = tipoImagem;
   imagemEl.style.display = 'block';
 
-  // 🚨 DETETOR DE ERROS DO GITHUB (Igual à página de Drones)
+  // 🚨 DETETOR DE ERROS DO GITHUB
   imagemEl.onerror = function() {
     console.error(`Erro 404: O GitHub não conseguiu carregar a imagem em: ${imagemEl.src}`);
     imagemEl.alt = `⚠️ Erro: Imagem não encontrada! Verifique se a pasta 'static' ou 'mapas' e o ficheiro estão no GitHub e se as letras maiúsculas batem certo.`;
