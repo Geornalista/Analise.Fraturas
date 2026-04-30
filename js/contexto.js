@@ -1,84 +1,60 @@
-/**
- * Página: Contexto Geológico
- */
+<!-- frontend/pages/contexto.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contexto Geológico</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <img src="../Aflora.png" alt="Logo" class="logo">
+        <h2>Análise de Fraturas</h2>
+        <p>Embalse Cabra Corral · Salta, Argentina</p>
+    </header>
 
-function inicializarContexto() {
-  
-  // 1. Busca inteligente do dropdown
-  let selectImagem = document.getElementById('imagem-select');
-  if (!selectImagem) {
-    // Se não achar o ID, procura o primeiro select dentro da área principal da página
-    selectImagem = document.querySelector('main select') || document.querySelector('.container select');
-  }
-  
-  if (!selectImagem) {
-      console.error("ERRO: O dropdown (<select>) não foi encontrado no HTML.");
-      alert("Erro crítico: Nenhum menu dropdown (<select>) foi encontrado na sua página de Contexto Geológico.");
-      return;
-  }
+    <nav class="sidebar">
+        <ul>
+            <li><a href="../index.html">🏠 Início</a></li>
+            <li><a href="contexto.html" class="active">🗺️ Contexto Geológico</a></li>
+            <li><a href="imagens_drones.html">🛸 Imagens Drones</a></li>
+            <li><a href="localizacao.html">📍 Localização</a></li>
+            <li><a href="distribuicao.html">📊 Distribuição Geral</a></li>
+            <li><a href="scanlines.html">📏 Scanlines</a></li>
+            <li><a href="estereogramas.html">🧭 Estereogramas</a></li>
+            <li><a href="p21.html">📈 P21 por Camada</a></li>
+            <li><a href="aberturas.html">📐 Aberturas</a></li>
+            <li><a href="tamanhos.html">📏 Tamanhos</a></li>
+            <li><a href="espessuras.html">🔲 Espessuras</a></li>
+            <li><a href="espessura_espacamento.html">⚖️ Esp. × Espaç.</a></li>
+        </ul>
+    </nav>
 
-  const imagens = [
-    'Esquema Geológico Detalhado',
-    'Arcabouço Estrutural',
-    'Modelo Conceitual'
-  ];
+    <main class="container">
+        <h1>🗺️ Contexto Geológico</h1>
+        
+        <p style="text-align: justify; line-height: 1.6; color: #475569; margin-bottom: 1.5rem;">
+            O mapa geológico e arcabouço estrutural apresentados a seguir correspondem a interpretação realizada a partir dos dados de campo, integrados com análise/interpretação de imagens de satélite e integração com mapas regionais disponíveis para área. Fornecem, assim, uma visão geral da área de estudo e do contexto onde os dados de veios e juntas foram coletados.
+        </p>
 
-  selectImagem.innerHTML = '';
-  imagens.forEach(img => {
-    const option = document.createElement('option');
-    option.value = img;
-    option.textContent = img;
-    selectImagem.appendChild(option);
-  });
+        <p>Selecione uma opção abaixo para visualizar os mapas estruturais e modelos conceituais da região.</p>
 
-  selectImagem.addEventListener('change', () => mostrarImagemContexto(selectImagem.value));
+        <!-- Controles: Dropdown -->
+        <section class="controls">
+            <label for="imagem-select" style="font-weight: bold; color: #1a365d; margin-right: 10px;">Selecione o mapa:</label>
+            <select id="imagem-select" style="padding: 0.5rem; border-radius: 4px; border: 1px solid #cbd5e1;">
+                <!-- O JavaScript vai preencher isso automaticamente -->
+            </select>
+        </section>
 
-  mostrarImagemContexto('Esquema Geológico Detalhado');
-}
+        <!-- Área da Imagem -->
+        <section class="chart-section" style="text-align: center; margin-top: 1.5rem; padding: 2rem; background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+            <img id="imagem-contexto" src="" alt="Mapa Geológico" style="max-width: 100%; height: auto; border-radius: 4px; display: none;">
+        </section>
+    </main>
 
-function mostrarImagemContexto(tipoImagem) {
-  
-  // 2. Busca inteligente da imagem (ignorando possíveis logos no header)
-  let imagemEl = document.getElementById('imagem-contexto');
-  if (!imagemEl) {
-    imagemEl = document.querySelector('main img') || document.querySelector('.chart-section img') || document.querySelector('.container img');
-  }
-  
-  if (!imagemEl) {
-      console.error("ERRO: A tag de imagem não foi encontrada no HTML.");
-      alert("Erro: A tag <img> onde o mapa deveria aparecer não foi encontrada na sua página.");
-      return;
-  }
-
-  // Mapeamento dos caminhos
-  const mapa = {
-    'Esquema Geológico Detalhado': '../mapas/MapaGeologico.png',
-    'Arcabouço Estrutural':        '../mapas/ArcaboucoEstrutural.png',
-    'Modelo Conceitual':           '../mapas/ModeloConceitual.png'
-  };
-
-  const caminhoExato = mapa[tipoImagem] || '../mapas/MapaGeologico.png';
-
-  // Remove estilos de erro de tentativas anteriores
-  imagemEl.style.border = "none";
-  imagemEl.style.padding = "0";
-  imagemEl.style.backgroundColor = "transparent";
-
-  // Aplica a nova imagem
-  imagemEl.src = caminhoExato;
-  imagemEl.alt = tipoImagem;
-  imagemEl.style.display = 'block';
-
-  // 🚨 DETETOR DE ERROS DO GITHUB
-  imagemEl.onerror = function() {
-    console.error(`Erro 404: O GitHub não conseguiu carregar a imagem em: ${imagemEl.src}`);
-    imagemEl.alt = `⚠️ Erro: Imagem não encontrada! Verifique se a pasta 'static' ou 'mapas' e o ficheiro estão no GitHub e se as letras maiúsculas batem certo.`;
-    
-    // Coloca a borda vermelha para chamar a atenção
-    imagemEl.style.border = "2px dashed #dc2626";
-    imagemEl.style.padding = "20px";
-    imagemEl.style.backgroundColor = "#fee2e2";
-  };
-}
-
-document.addEventListener('DOMContentLoaded', inicializarContexto);
+    <!-- A tag mais importante: Chama o seu JavaScript mágico! -->
+    <script src="../js/contexto.js"></script>
+</body>
+</html>
