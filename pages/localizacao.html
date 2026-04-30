@@ -5,19 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Localização dos Afloramentos</title>
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <link rel="stylesheet" href="../css/style.css">
+    
+    <!-- Bibliotecas do Mapa (Leaflet) -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <!-- Biblioteca para agrupar os marcadores (MarkerCluster) -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 </head>
 <body>
     <header>
-        <img src="Aflora.png" alt="Logo" class="logo">
+        <img src="../Aflora.png" alt="Logo" class="logo">
         <h2>Análise de Fraturas</h2>
         <p>Embalse Cabra Corral · Salta, Argentina</p>
     </header>
 
     <nav class="sidebar">
         <ul>
-            <li><a href="/index.html">🏠 Início</a></li>
+            <li><a href="../index.html">🏠 Início</a></li>
             <li><a href="contexto.html">🗺️ Contexto Geológico</a></li>
             <li><a href="imagens_drones.html">🛸 Imagens Drones</a></li>
             <li><a href="localizacao.html" class="active">📍 Localização</a></li>
@@ -33,5 +41,37 @@
     </nav>
 
     <main class="container">
+        <h1>📍 Localização dos Afloramentos</h1>
+        
+        <p style="text-align: justify; line-height: 1.6; color: #475569; margin-bottom: 1.5rem;">
+            Localização dos afloramentos trabalhados na região do Embalse Cabra Corral, município de Coronel Moldes, Província de Salta - AR.
+        </p>
 
+        <!-- Status de carregamento do CSV -->
+        <div id="status-dados" style="padding: 1rem; background-color: #f8fafc; border-radius: 6px; border: 1px solid #e2e8f0; margin-bottom: 1.5rem; color: #334155; font-size: 0.95rem;">
+            A procurar ficheiro de coordenadas...
+        </div>
 
+        <!-- Onde o mapa será desenhado -->
+        <section class="chart-section" style="padding: 1rem; background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+            <div id="mapa-localizacao" style="height: 600px; width: 100%; border-radius: 6px; z-index: 1;"></div>
+        </section>
+
+        <!-- Botões de Download -->
+        <section class="downloads" style="margin-top: 3rem; padding: 2rem; background-color: #f8fafc; border-radius: 8px; text-align: center; border: 1px solid #e2e8f0;">
+            <h3 style="color: #1a365d; margin-bottom: 1.5rem; font-size: 1.3rem;">Exportar Dados Espaciais</h3>
+            
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <button id="btn-download-geojson" style="background-color: #10b981; color: white; padding: 0.75rem 1.5rem; border: none; cursor: pointer; border-radius: 6px; font-weight: bold; transition: opacity 0.2s; box-shadow: 0 2px 4px rgba(0,0,0,0.1); font-size: 1rem;">
+                    🌍 Baixar GeoJSON
+                </button>
+            </div>
+            <p style="margin-top: 1rem; font-size: 0.85rem; color: #64748b;">Este ficheiro pode ser aberto diretamente no QGIS ou no Google Earth.</p>
+        </section>
+
+    </main>
+
+    <!-- Nosso script de localização -->
+    <script src="../js/localizacao.js"></script>
+</body>
+</html>
