@@ -5,13 +5,16 @@
 let dadosScanlines = null;
 let dadosOpcoes = null;
 
-// Função de busca focada exclusivamente na pasta "data" com depurador de JSON
+// Função de busca focada na pasta "data" com depurador de JSON e tolerância a erros de digitação (scalines vs scanlines)
 async function buscarJSONRobusto(nomeArquivo) {
   const caminhosPossiveis = [
     `../data/${nomeArquivo}.json`,
     `../../data/${nomeArquivo}.json`,
     `./data/${nomeArquivo}.json`,
-    `/data/${nomeArquivo}.json`
+    `/data/${nomeArquivo}.json`,
+    // Fallbacks para caso o nome do arquivo tenha o erro de digitação comum (scalines)
+    `../data/${nomeArquivo.replace('scanlines', 'scalines')}.json`,
+    `../../data/${nomeArquivo.replace('scanlines', 'scalines')}.json`
   ];
 
   let jsonEncontradoText = null;
@@ -30,12 +33,10 @@ async function buscarJSONRobusto(nomeArquivo) {
     }
   }
 
-  // 1. Verifica se encontrou o arquivo
   if (!jsonEncontradoText) {
-    throw new Error(`O arquivo ${nomeArquivo}.json não foi encontrado na pasta 'data'.`);
+    throw new Error(`O arquivo ${nomeArquivo}.json (ou scalines.json) não foi encontrado na pasta 'data'.`);
   }
 
-  // 2. Tenta converter o texto para JSON lidando com "sujeiras" do Python
   try {
     let jsonCorrigido = jsonEncontradoText.replace(/:\s*NaN/g, ': null');
     jsonCorrigido = jsonCorrigido.replace(/:\s*Infinity/g, ': null');
@@ -44,7 +45,7 @@ async function buscarJSONRobusto(nomeArquivo) {
     return JSON.parse(jsonCorrigido);
   } catch (parseError) {
     console.error(`Falha ao ler o JSON de ${nomeArquivo}:`, jsonEncontradoText.substring(0, 200) + "...");
-    throw new Error(`O arquivo ${nomeArquivo}.json foi encontrado em '${caminhoSucesso}', mas o seu conteúdo está com formato inválido. Erro do sistema: ${parseError.message}`);
+    throw new Error(`O arquivo foi encontrado, mas o seu conteúdo tem um formato inválido. Erro: ${parseError.message}`);
   }
 }
 
@@ -55,11 +56,10 @@ async function inicializarScanlines() {
   let selectCam = document.getElementById('camada-scanline') || document.querySelectorAll('select')[1];
 
   try {
-    // Tenta carregar os dois arquivos
     try {
       dadosOpcoes = await buscarJSONRobusto('opcoes');
     } catch (e) {
-      console.warn("Aviso: opcoes.json falhou. Prosseguindo apenas com scanlines.json. Erro: " + e.message);
+      console.warn("Aviso: opcoes.json falhou. Prosseguindo apenas com scanlines.json.");
       dadosOpcoes = {}; 
     }
 
@@ -68,17 +68,12 @@ async function inicializarScanlines() {
 
   } catch (erro) {
     console.error('❌ Erro fatal:', erro);
-    const erroHtml = `
+    const container = document.querySelector('.chart-section') || document.body;
+    container.innerHTML = `
       <div style="text-align: center; color: #dc2626; padding: 2rem; border: 1px dashed #dc2626; border-radius: 8px; background: white; margin-top: 1rem;">
         <h3>⚠️ Erro no carregamento</h3>
         <p><strong>Detalhe técnico:</strong> ${erro.message}</p>
-        <p style="font-size: 0.9em; color: #666; margin-top: 1rem;">
-          Se o erro disser que o formato é inválido, verifique o Console (F12) para ver a parte do arquivo que está corrompida.
-        </p>
       </div>`;
-    
-    const container = document.querySelector('.chart-section') || document.body;
-    container.innerHTML = erroHtml;
     return;
   }
 
@@ -90,37 +85,40 @@ async function inicializarScanlines() {
   // Preenche afloramentos
   if (dadosOpcoes && dadosOpcoes.afloramentos && Array.isArray(dadosOpcoes.afloramentos)) {
     dadosOpcoes.afloramentos.forEach(afl => {
-      const option = document.createElement('option');
-      option.value = afl;
-      option.textContent = afl;
-      selectAfl.appendChild(option);
+      selectAfl.appendChild(new Option(afl, afl));
     });
   } else {
     Object.keys(dadosScanlines).forEach(afl => {
-      const option = document.createElement('option');
-      option.value = afl;
-      option.textContent = afl;
-      selectAfl.appendChild(option);
+      selectAfl.appendChild(new Option(afl, afl));
     });
   }
 
   // Preenche camadas
   if (dadosOpcoes && dadosOpcoes.camadas && Array.isArray(dadosOpcoes.camadas)) {
     dadosOpcoes.camadas.forEach(cam => {
-      const option = document.createElement('option');
-      option.value = cam;
-      option.textContent = cam;
-      selectCam.appendChild(option);
+      selectCam.appendChild(new Option(cam, cam));
     });
   } else {
-    const option = document.createElement('option');
-    option.value = "Todas";
-    option.textContent = "Todas as Camadas";
-    selectCam.appendChild(option);
+    // Se não houver opcoes.json, tenta extrair as camadas do primeiro afloramento
+    const primeiroAfl = selectAfl.options[0].value;
+    if (dadosScanlines[primeiroAfl]) {
+       Object.keys(dadosScanlines[primeiroAfl]).forEach(cam => {
+          selectCam.appendChild(new Option(cam, cam));
+       });
+    } else {
+       selectCam.appendChild(new Option("Todas", "Todas"));
+    }
   }
 
-  // Eventos de mudança
   selectAfl.addEventListener('change', () => {
+    // Atualiza as camadas disponíveis para o afloramento escolhido
+    const aflEscolhido = selectAfl.value;
+    if (dadosScanlines[aflEscolhido]) {
+        selectCam.innerHTML = '';
+        Object.keys(dadosScanlines[aflEscolhido]).forEach(cam => {
+            selectCam.appendChild(new Option(cam, cam));
+        });
+    }
     renderizarScanline(selectAfl.value, selectCam.value, dadosScanlines[selectAfl.value]);
   });
 
@@ -128,9 +126,8 @@ async function inicializarScanlines() {
     renderizarScanline(selectAfl.value, selectCam.value, dadosScanlines[selectAfl.value]);
   });
 
-  // Render inicial
   if (selectAfl.options.length > 0) {
-    renderizarScanline(selectAfl.value, selectCam.value, dadosScanlines[selectAfl.value]);
+    selectAfl.dispatchEvent(new Event('change'));
   }
 }
 
@@ -140,70 +137,127 @@ function renderizarScanline(afloramento, camada, dadosAfloramento) {
 
   const parentWidth = canvas.parentElement.clientWidth || 800;
   canvas.width = parentWidth;
-  canvas.height = 400;
+  canvas.height = 450; // Altura aumentada para melhor visualização
 
   const ctx = canvas.getContext('2d');
-  const padding = 50;
+  const padding = 60;
   const height = canvas.height - 2 * padding;
   const width = canvas.width - 2 * padding;
 
-  // Fundo e moldura
+  // Limpar fundo
   ctx.fillStyle = '#ffffff';
   ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-  ctx.strokeStyle = '#e2e8f0';
-  ctx.lineWidth = 1;
-  ctx.strokeRect(padding, padding, width, height);
-
-  ctx.strokeStyle = '#1a365d';
-  ctx.lineWidth = 2;
-  ctx.beginPath();
-  ctx.moveTo(padding, padding);
-  ctx.lineTo(padding, canvas.height - padding);
-  ctx.lineTo(canvas.width - padding, canvas.height - padding);
-  ctx.stroke();
 
   // Cabeçalhos
   ctx.fillStyle = '#1a365d';
   ctx.font = 'bold 16px Arial';
-  ctx.fillText(`Afloramento: ${afloramento || 'Nenhum'}`, padding, padding - 20);
+  ctx.fillText(`Afloramento: ${afloramento || 'Nenhum'}`, padding, padding - 30);
   
   ctx.fillStyle = '#64748b';
   ctx.font = '14px Arial';
-  const posCamadaX = width > 400 ? padding + 300 : padding; 
-  const posCamadaY = width > 400 ? padding - 20 : padding + 15;
-  ctx.fillText(`Camada: ${camada || 'Nenhuma'}`, posCamadaX, posCamadaY);
+  ctx.fillText(`Camada: ${camada || 'Nenhuma'}`, padding + 300, padding - 30);
 
-  if (!dadosAfloramento) {
+  if (!dadosAfloramento || !dadosAfloramento[camada]) {
     ctx.fillStyle = '#dc2626';
     ctx.font = 'italic 14px Arial';
-    ctx.fillText('Nenhum dado encontrado para o afloramento selecionado.', padding + 20, canvas.height / 2);
+    ctx.fillText('Nenhum dado encontrado para esta seleção.', padding, canvas.height / 2);
     return;
   }
 
-  let dadosRenderizar = dadosAfloramento;
-  if (dadosAfloramento[camada]) {
-      dadosRenderizar = dadosAfloramento[camada];
-  }
+  const dadosRenderizar = dadosAfloramento[camada];
 
-  // DIAGNÓSTICO
-  ctx.fillStyle = '#2ca02c';
-  ctx.font = 'bold 14px Arial';
-  
-  if (Array.isArray(dadosRenderizar)) {
-      ctx.fillText(`✅ Sucesso! JSON encontrado na pasta DATA. Existem ${dadosRenderizar.length} fraturas aqui.`, padding + 20, canvas.height / 2 - 20);
-      ctx.fillStyle = '#666';
+  if (dadosRenderizar.fraturas) {
+      // 1. Extrair os dados geológicos
+      const comprimentoReal = dadosRenderizar.comprimento || 10; // metros
+      const espessuraReal = dadosRenderizar.espessura_camada || 5; // metros
+      const fraturas = dadosRenderizar.fraturas;
+
+      // 2. Definir a escala de conversão (Metros para Pixels)
+      const scaleX = width / comprimentoReal;
+      // Para a altura, usamos a espessura da camada para limitar o topo
+      const scaleY = height / Math.max(espessuraReal, 1); 
+
+      // 3. Desenhar a Camada (Rocha base)
+      const yBaseCamada = padding + height; // Fundo da tela
+      const yTopoCamada = yBaseCamada - (espessuraReal * scaleY);
+      
+      ctx.fillStyle = '#f8fafc'; // Cor de fundo da rocha
+      ctx.fillRect(padding, yTopoCamada, comprimentoReal * scaleX, espessuraReal * scaleY);
+      
+      ctx.strokeStyle = '#cbd5e1'; // Borda da camada
+      ctx.lineWidth = 2;
+      ctx.strokeRect(padding, yTopoCamada, comprimentoReal * scaleX, espessuraReal * scaleY);
+
+      // 4. Eixo X (Distância)
+      ctx.strokeStyle = '#1a365d';
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(padding, yBaseCamada);
+      ctx.lineTo(padding + (comprimentoReal * scaleX), yBaseCamada);
+      ctx.stroke();
+
+      // Marcações no Eixo X
+      ctx.fillStyle = '#1a365d';
       ctx.font = '12px Arial';
-      ctx.fillText(`(Os dados estão prontos. Podemos desenhar as linhas no passo seguinte!)`, padding + 20, canvas.height / 2 + 10);
-  } else if (typeof dadosRenderizar === 'object') {
-      const chaves = Object.keys(dadosRenderizar).slice(0, 5).join(', ');
-      ctx.fillText(`✅ Sucesso! JSON carregado na pasta DATA (Formato Objeto).`, padding + 20, canvas.height / 2 - 20);
-      ctx.fillStyle = '#666';
+      for(let i = 0; i <= Math.ceil(comprimentoReal); i+= (comprimentoReal > 20 ? 5 : 1)) {
+          const xPos = padding + (i * scaleX);
+          ctx.beginPath();
+          ctx.moveTo(xPos, yBaseCamada);
+          ctx.lineTo(xPos, yBaseCamada + 5);
+          ctx.stroke();
+          ctx.fillText(`${i}m`, xPos - 10, yBaseCamada + 20);
+      }
+
+      // 5. Desenhar as Fraturas
+      fraturas.forEach(f => {
+          const x = padding + (f.espacamento * scaleX);
+          const yInicio = yBaseCamada;
+          const yFim = yBaseCamada - (f.altura * scaleY);
+
+          ctx.beginPath();
+          ctx.moveTo(x, yInicio);
+          ctx.lineTo(x, yFim);
+
+          // Cores baseadas na subordinação
+          const tipo = (f.frat_set || "").toLowerCase();
+          if (tipo.includes("nao subordinada") || tipo.includes("não subordinada")) {
+              ctx.strokeStyle = '#dc2626'; // Vermelho forte
+              ctx.lineWidth = 3;
+          } else if (tipo.includes("subordinada")) {
+              ctx.strokeStyle = '#2563eb'; // Azul
+              ctx.lineWidth = 1.5;
+          } else {
+              ctx.strokeStyle = '#16a34a'; // Verde (Não identificada)
+              ctx.lineWidth = 1.5;
+          }
+          ctx.stroke();
+      });
+
+      // 6. Legenda Visual
+      const legX = padding;
+      const legY = canvas.height - 15;
+      
       ctx.font = '12px Arial';
-      ctx.fillText(`Encontrei as chaves: ${chaves}...`, padding + 20, canvas.height / 2 + 10);
+      
+      // Legenda 1
+      ctx.fillStyle = '#dc2626';
+      ctx.fillRect(legX, legY - 10, 15, 10);
+      ctx.fillStyle = '#333';
+      ctx.fillText('Não Subordinada', legX + 20, legY);
+
+      // Legenda 2
+      ctx.fillStyle = '#2563eb';
+      ctx.fillRect(legX + 130, legY - 10, 15, 10);
+      ctx.fillStyle = '#333';
+      ctx.fillText('Subordinada', legX + 150, legY);
+      
+      // Info Geral
+      ctx.fillStyle = '#64748b';
+      ctx.fillText(`Total de Fraturas: ${fraturas.length} | Comprimento: ${comprimentoReal}m | Espessura: ${espessuraReal}m`, legX + 260, legY);
+
   } else {
       ctx.fillStyle = '#f59e0b';
-      ctx.fillText(`⚠️ Arquivo lido, mas o formato é inesperado.`, padding + 20, canvas.height / 2);
+      ctx.fillText(`⚠️ Arquivo lido, mas a estrutura interna do JSON não contém "fraturas".`, padding, canvas.height / 2);
   }
 }
 
